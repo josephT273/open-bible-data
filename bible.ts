@@ -2,29 +2,9 @@ import { Database } from "bun:sqlite";
 import fs from "node:fs";
 import path from "node:path";
 
-/* ============================================================
- * CONFIGURATION
- * ============================================================ */
-
 const ROOT = "./bibles";
 const OUTPUT = "./sqlite";
-
-/**
- * Folders excluded from language-based migration.
- * The "active" folder is processed separately.
- */
-const EXCLUDED = new Set([
-    "Extras",
-    "readme.txt",
-    "AM-Amharic",
-    "Bible-kjv",
-    "amharic_bible",
-    "active",
-]);
-
-/* ============================================================
- * TYPES
- * ============================================================ */
+const EXCLUDED = new Set(["Extras", "readme.txt", "AM-Amharic", "Bible-kjv", "amharic_bible", "active"]);
 
 type Manifest = {
     versions: {
@@ -37,26 +17,15 @@ type Manifest = {
     }[];
 };
 
-/* ============================================================
- * UTILITY FUNCTIONS
- * ============================================================ */
-
-/**
- * Safely parse JSON files.
- */
 function readJSON<T>(filePath: string): T | null {
     try {
-        const raw = fs.readFileSync(filePath, "utf-8");
-        return JSON.parse(raw);
+        return JSON.parse(fs.readFileSync(filePath, "utf-8"));
     } catch {
-        console.warn(`⚠️  Skipped invalid JSON: ${filePath}`);
+        console.warn(`Skipped invalid JSON: ${filePath}`);
         return null;
     }
 }
 
-/**
- * Safely read directory contents.
- */
 function readDirSafe(dir: string): string[] {
     try {
         return fs.readdirSync(dir);
@@ -65,26 +34,31 @@ function readDirSafe(dir: string): string[] {
     }
 }
 
-/**
- * Apply SQLite performance optimizations.
- */
-function applyPragmas(db: Database) {
+function createFreshDatabase(dbPath: string) {
+    fs.mkdirSync(OUTPUT, { recursive: true });
+    if (fs.existsSync(dbPath)) fs.unlinkSync(dbPath);
+    const journalPath = `${dbPath}-journal`;
+    if (fs.existsSync(journalPath)) fs.unlinkSync(journalPath);
+    return new Database(dbPath);
+}
+
+function configureForInsert(db: Database) {
     db.exec(`
-    PRAGMA journal_mode = WAL;
-    PRAGMA synchronous = NORMAL;
+    PRAGMA page_size = 4096;
+    PRAGMA journal_mode = OFF;
+    PRAGMA synchronous = OFF;
+    PRAGMA locking_mode = EXCLUSIVE;
     PRAGMA foreign_keys = ON;
     PRAGMA temp_store = MEMORY;
-    PRAGMA cache_size = -64000;
+    PRAGMA cache_size = -8000;
+    PRAGMA auto_vacuum = NONE;
   `);
 }
 
-/**
- * Create unified database schema.
- */
 function createSchema(db: Database) {
     db.exec(`
     CREATE TABLE IF NOT EXISTS metadata (
-      id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+      id INTEGER PRIMARY KEY NOT NULL,
       name TEXT NOT NULL,
       shortname TEXT,
       module TEXT,
@@ -109,13 +83,13 @@ function createSchema(db: Database) {
     );
 
     CREATE TABLE IF NOT EXISTS books (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      id INTEGER PRIMARY KEY,
       name TEXT UNIQUE,
       total_chapter INTEGER
     );
 
     CREATE TABLE IF NOT EXISTS verses (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      id INTEGER PRIMARY KEY,
       metadataID INTEGER NOT NULL,
       book_id INTEGER NOT NULL,
       chapter INTEGER NOT NULL,
@@ -131,20 +105,59 @@ function createSchema(db: Database) {
   `);
 }
 
-/**
- * Insert metadata with fallback values while preserving all fields.
- */
-function insertFullMetadata(
-    stmt: any,
-    metadata: any,
-    fallback: {
-        name: string;
-        shortname: string;
-        lang: string;
-        lang_short: string;
-        description?: string;
-    }
-): number {
+function finalizeDatabase(db: Database) {
+    db.exec(`
+    PRAGMA optimize;
+    VACUUM;
+  `);
+}
+
+type AnyObj = Record<string, any>;
+type MetadataFallback = {
+    name: string;
+    shortname: string;
+    lang: string;
+    lang_short: string;
+    description?: string;
+};
+
+type DbContext = {
+    db: Database;
+    insertMetaStmt: any;
+    insertBookStmt: any;
+    getBookIdStmt: any;
+    insertVerseStmt: any;
+};
+
+function createDbContext(dbPath: string): DbContext {
+    const db = createFreshDatabase(dbPath);
+    configureForInsert(db);
+    createSchema(db);
+
+    return {
+        db,
+        insertMetaStmt: db.prepare(`
+      INSERT INTO metadata (
+        name, shortname, module, year, publisher, owner,
+        description, lang, lang_short, copyright,
+        copyright_statement, url, citation_limit,
+        restrict, italics, strongs, red_letter,
+        paragraph, official, research, module_version
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `),
+        insertBookStmt: db.prepare(`
+      INSERT OR IGNORE INTO books (name, total_chapter)
+      VALUES (?, ?)
+    `),
+        getBookIdStmt: db.prepare(`SELECT id FROM books WHERE name = ?`),
+        insertVerseStmt: db.prepare(`
+      INSERT INTO verses (metadataID, book_id, chapter, verse, text, title)
+      VALUES (?, ?, ?, ?, ?, ?)
+    `),
+    };
+}
+
+function insertMetadata(stmt: any, metadata: AnyObj | undefined, fallback: MetadataFallback): number {
     return stmt.run(
         metadata?.name ?? fallback.name,
         metadata?.shortname ?? fallback.shortname,
@@ -170,9 +183,130 @@ function insertFullMetadata(
     ).lastInsertRowid as number;
 }
 
-/* ============================================================
- * ACTIVE FOLDER MIGRATION
- * ============================================================ */
+function parseVerseValue(value: any): { text: string; title: string | null } {
+    if (typeof value === "string") return { text: value.trim(), title: null };
+    if (value && typeof value === "object") {
+        return {
+            text: String(value.text ?? "").trim(),
+            title: value.title == null ? null : String(value.title).trim() || null,
+        };
+    }
+    return { text: "", title: null };
+}
+
+function toNumberOrZero(value: unknown): number {
+    const direct = Number(value);
+    if (Number.isFinite(direct)) return direct;
+    const match = String(value ?? "").match(/\d+/);
+    return match ? Number(match[0]) : 0;
+}
+
+function importNestedBible(data: AnyObj, metadataId: number, ctx: DbContext) {
+    for (const [bookRaw, chapters] of Object.entries(data)) {
+        if (bookRaw === "metadata" || !chapters || typeof chapters !== "object") continue;
+        const bookName = bookRaw.trim();
+        if (!bookName) continue;
+
+        const totalChapters = Object.keys(chapters as AnyObj).length;
+        ctx.insertBookStmt.run(bookName, totalChapters);
+
+        const row = ctx.getBookIdStmt.get(bookName) as { id: number } | undefined;
+        if (!row) continue;
+        for (const [chapterRaw, verses] of Object.entries(chapters as AnyObj)) {
+            if (!verses || typeof verses !== "object") continue;
+            const chapter = toNumberOrZero(chapterRaw);
+
+            for (const [verseRaw, value] of Object.entries(verses as AnyObj)) {
+                const verse = toNumberOrZero(verseRaw);
+                const parsed = parseVerseValue(value);
+                ctx.insertVerseStmt.run(metadataId, row.id, chapter, verse, parsed.text, parsed.title);
+            }
+        }
+    }
+}
+
+function importChaptersBible(data: AnyObj, metadataId: number, ctx: DbContext) {
+    const bookName = String(data.book ?? data.title ?? "").trim();
+    if (!bookName || !Array.isArray(data.chapters)) return;
+
+    ctx.insertBookStmt.run(bookName, data.chapters.length);
+    const row = ctx.getBookIdStmt.get(bookName) as { id: number } | undefined;
+    if (!row) return;
+
+    for (const chapterObj of data.chapters) {
+        const chapter = toNumberOrZero(chapterObj?.chapter ?? 0);
+        const verses = Array.isArray(chapterObj?.verses) ? chapterObj.verses : [];
+
+        for (const verseObj of verses) {
+            const verse = toNumberOrZero(verseObj?.verse ?? 0);
+            const text = String(verseObj?.text ?? "").trim();
+            const title = verseObj?.title == null ? null : String(verseObj.title).trim() || null;
+            ctx.insertVerseStmt.run(metadataId, row.id, chapter, verse, text, title);
+        }
+    }
+}
+
+function importFlatBible(data: AnyObj, metadataId: number, ctx: DbContext) {
+    const verses = Array.isArray(data.verses) ? data.verses : [];
+    const maxChapterByBook = new Map<string, number>();
+    const bookIdCache = new Map<string, number>();
+
+    for (const v of verses) {
+        const bookName = String(v?.book_name ?? "").trim();
+        if (!bookName) continue;
+        const chapter = toNumberOrZero(v?.chapter ?? 0);
+        maxChapterByBook.set(bookName, Math.max(maxChapterByBook.get(bookName) ?? 0, chapter));
+    }
+
+    for (const [bookName, totalChapter] of maxChapterByBook) {
+        ctx.insertBookStmt.run(bookName, totalChapter);
+        const row = ctx.getBookIdStmt.get(bookName) as { id: number } | undefined;
+        if (row) bookIdCache.set(bookName, row.id);
+    }
+
+    for (const v of verses) {
+        const bookName = String(v?.book_name ?? "").trim();
+        const bookId = bookIdCache.get(bookName);
+        if (!bookId) continue;
+
+        const text = String(v?.text ?? "").trim();
+        const title = v?.title == null ? null : String(v.title).trim() || null;
+
+        ctx.insertVerseStmt.run(
+            metadataId,
+            bookId,
+            toNumberOrZero(v?.chapter ?? 0),
+            toNumberOrZero(v?.verse ?? 0),
+            text,
+            title
+        );
+    }
+}
+
+function importBibleData(data: AnyObj, metadataId: number, ctx: DbContext) {
+    if (Array.isArray(data.chapters)) {
+        importChaptersBible(data, metadataId, ctx);
+        return;
+    }
+    if (Array.isArray(data.verses)) {
+        importFlatBible(data, metadataId, ctx);
+        return;
+    }
+    importNestedBible(data, metadataId, ctx);
+}
+
+function safeDbName(name: string): string {
+    return name.replace(/[\\/:*?"<>|]+/g, "_").replace(/\s+/g, "_");
+}
+
+function isSplitBookFolder(files: string[], folderPath: string): boolean {
+    for (const file of files) {
+        const data = readJSON<any>(path.join(folderPath, file));
+        if (!data || Array.isArray(data)) continue;
+        return Array.isArray(data.chapters);
+    }
+    return false;
+}
 
 export function active_bibles() {
     const location = path.join(ROOT, "active");
@@ -180,281 +314,99 @@ export function active_bibles() {
 
     const manifest = readJSON<Manifest>(manifestPath);
     if (!manifest) {
-        console.error("❌ Invalid or missing version_manifest.json");
+        console.error("Invalid or missing version_manifest.json");
         return;
     }
 
-    fs.mkdirSync(OUTPUT, { recursive: true });
-
     for (const info of manifest.versions) {
-        console.log(`\n📖 Importing Active Translation: ${info.name}`);
+        console.log(`Active: ${info.name}`);
 
-        const dbPath = path.join(
-            OUTPUT,
-            `${info.name.replace(/\s+/g, "_")}.sqlite`
-        );
-        const db = new Database(dbPath);
+        const ctx = createDbContext(path.join(OUTPUT, `${safeDbName(info.name)}.sqlite`));
 
-        applyPragmas(db);
-        createSchema(db);
-
-        const insertMetaStmt = db.prepare(`
-      INSERT INTO metadata (
-        name, shortname, module, year, publisher, owner,
-        description, lang, lang_short, copyright,
-        copyright_statement, url, citation_limit,
-        restrict, italics, strongs, red_letter,
-        paragraph, official, research, module_version
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
-
-        const insertBookStmt = db.prepare(`
-      INSERT OR IGNORE INTO books (name, total_chapter)
-      VALUES (?, ?)
-    `);
-
-        const getBookIdStmt = db.prepare(
-            `SELECT id FROM books WHERE name = ?`
-        );
-
-        const insertVerseStmt = db.prepare(`
-      INSERT INTO verses (metadataID, book_id, chapter, verse, text, title)
-      VALUES (?, ?, ?, ?, ?, ?)
-    `);
-
-        const metadataId = insertFullMetadata(
-            insertMetaStmt,
-            {}, // Manifest lacks full metadata
-            {
-                name: info.name,
-                shortname: info.id,
-                lang: info.language,
-                lang_short: info.language?.substring(0, 2).toUpperCase(),
-                description: info.description,
-            }
-        );
+        const metadataId = insertMetadata(ctx.insertMetaStmt, undefined, {
+            name: info.name,
+            shortname: info.id,
+            lang: info.language,
+            lang_short: (info.language ?? "").slice(0, 2).toUpperCase(),
+            description: info.description,
+        });
 
         const bible = readJSON<any>(path.join(location, info.file));
         if (!bible) {
-            console.warn(`⚠️  Skipped translation file: ${info.file}`);
-            db.close();
+            console.warn(`Skipped translation file: ${info.file}`);
+            ctx.db.close();
             continue;
         }
 
-        const insertAll = db.transaction(() => {
-            for (const bookNameRaw in bible) {
-                if (bookNameRaw === "metadata") continue;
-
-                const bookName = bookNameRaw.trim();
-                const chapters = bible[bookNameRaw];
-                const totalChapters = Object.keys(chapters).length;
-
-                insertBookStmt.run(bookName, totalChapters);
-                const bookRow = getBookIdStmt.get(bookName);
-                if (!bookRow) continue;
-
-                const bookId = bookRow.id;
-
-                for (const chapterNum in chapters) {
-                    const verses = chapters[chapterNum];
-
-                    for (const verseNum in verses) {
-                        const value = verses[verseNum];
-
-                        let text: string;
-                        let title: string | null = null;
-
-                        // Handle both string and object verse formats
-                        if (typeof value === "string") {
-                            text = value;
-                        } else if (value && typeof value === "object") {
-                            text = value.text ?? "";
-                            title = value.title ?? null;
-                        } else {
-                            text = "";
-                        }
-
-                        insertVerseStmt.run(
-                            metadataId,
-                            bookId,
-                            Number(chapterNum) || 0,
-                            Number(verseNum) || 0,
-                            text,
-                            title
-                        );
-                    }
-                }
-            }
-        });
-
+        const insertAll = ctx.db.transaction(() => importBibleData(bible, metadataId, ctx));
         insertAll();
-        db.close();
+        finalizeDatabase(ctx.db);
+        ctx.db.close();
 
-        console.log(`✅ Completed: ${info.name}`);
+        console.log(`Done: ${info.name}`);
     }
 }
 
-/* ============================================================
- * LANGUAGE FOLDER MIGRATION
- * ============================================================ */
-
 export function migration() {
-    fs.mkdirSync(OUTPUT, { recursive: true });
-
     for (const folder of readDirSafe(ROOT)) {
         if (EXCLUDED.has(folder)) {
-            console.log(`⏭️ Skipped: ${folder}`);
             continue;
         }
 
         const folderPath = path.join(ROOT, folder);
         if (!fs.statSync(folderPath).isDirectory()) continue;
 
-        console.log(`\n🌍 Processing Language: ${folder}`);
+        console.log(`Language: ${folder}`);
 
-        const db = new Database(path.join(OUTPUT, `${folder}.sqlite`));
-        applyPragmas(db);
-        createSchema(db);
+        const files = readDirSafe(folderPath).filter((f) => f.endsWith(".json"));
+        if (!files.length) continue;
 
-        const insertMetaStmt = db.prepare(`
-      INSERT INTO metadata (
-        name, shortname, module, year, publisher, owner,
-        description, lang, lang_short, copyright,
-        copyright_statement, url, citation_limit,
-        restrict, italics, strongs, red_letter,
-        paragraph, official, research, module_version
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
+        if (isSplitBookFolder(files, folderPath)) {
+            const ctx = createDbContext(path.join(OUTPUT, `${safeDbName(folder)}.sqlite`));
+            const metadataId = insertMetadata(ctx.insertMetaStmt, undefined, {
+                name: folder,
+                shortname: folder,
+                lang: folder,
+                lang_short: folder.split("-")[0] ?? "",
+            });
 
-        const insertBookStmt = db.prepare(`
-      INSERT OR IGNORE INTO books (name, total_chapter)
-      VALUES (?, ?)
-    `);
+            const insertAll = ctx.db.transaction(() => {
+                for (const file of files) {
+                    const data = readJSON<any>(path.join(folderPath, file));
+                    if (!data || Array.isArray(data)) continue;
+                    importBibleData(data, metadataId, ctx);
+                }
+            });
 
-        const getBookIdStmt = db.prepare(
-            `SELECT id FROM books WHERE name = ?`
-        );
-
-        const insertVerseStmt = db.prepare(`
-      INSERT INTO verses (metadataID, book_id, chapter, verse, text, title)
-      VALUES (?, ?, ?, ?, ?, ?)
-    `);
-
-        const insertAll = db.transaction(() => {
-            const files = readDirSafe(folderPath).filter((f) =>
-                f.endsWith(".json")
-            );
-
+            insertAll();
+            finalizeDatabase(ctx.db);
+            ctx.db.close();
+        } else {
             for (const file of files) {
-                console.log(`   📘 Importing: ${file}`);
+                const data = readJSON<any>(path.join(folderPath, file));
+                if (!data || Array.isArray(data)) continue;
 
-                const filePath = path.join(folderPath, file);
-                const data = readJSON<any>(filePath);
-                if (!data) continue;
+                const outputFile = `${safeDbName(folder)}_${safeDbName(path.parse(file).name)}.sqlite`;
+                const ctx = createDbContext(path.join(OUTPUT, outputFile));
 
-                const metadataId = insertFullMetadata(
-                    insertMetaStmt,
-                    data.metadata,
-                    {
-                        name: path.parse(file).name,
-                        shortname: path.parse(file).name,
-                        lang: folder,
-                        lang_short: folder.split("-")[0]!,
-                    }
-                );
+                const metadataId = insertMetadata(ctx.insertMetaStmt, data.metadata, {
+                    name: path.parse(file).name,
+                    shortname: path.parse(file).name,
+                    lang: folder,
+                    lang_short: folder.split("-")[0] ?? "",
+                });
 
-                const bookChapterMap = new Map<string, number>();
-                const bookIdCache = new Map<string, number>();
-
-                // ----------- FLAT FORMAT (verses array) -----------
-                if (Array.isArray(data.verses)) {
-                    for (const v of data.verses) {
-                        const bookName = (v.book_name ?? "").trim();
-                        if (!bookName) continue;
-
-                        const chapter = Number(v.chapter ?? 0);
-                        bookChapterMap.set(
-                            bookName,
-                            Math.max(bookChapterMap.get(bookName) ?? 0, chapter)
-                        );
-                    }
-
-                    for (const [bookName, totalChapter] of bookChapterMap) {
-                        insertBookStmt.run(bookName, totalChapter);
-                        const row = getBookIdStmt.get(bookName);
-                        if (row) bookIdCache.set(bookName, row.id);
-                    }
-
-                    for (const v of data.verses) {
-                        const bookName = (v.book_name ?? "").trim();
-                        const bookId = bookIdCache.get(bookName);
-                        if (!bookId) continue;
-
-                        insertVerseStmt.run(
-                            metadataId,
-                            bookId,
-                            Number(v.chapter ?? 0),
-                            Number(v.verse ?? 0),
-                            v.text ?? "",
-                            v.title ?? null
-                        );
-                    }
-                }
-                // ----------- NESTED FORMAT -----------
-                else {
-                    for (const bookNameRaw in data) {
-                        if (bookNameRaw === "metadata") continue;
-
-                        const bookName = bookNameRaw.trim();
-                        const chapters = data[bookNameRaw];
-                        const totalChapters = Object.keys(chapters).length;
-
-                        insertBookStmt.run(bookName, totalChapters);
-                        const row = getBookIdStmt.get(bookName);
-                        if (!row) continue;
-
-                        const bookId = row.id;
-
-                        for (const chapterNum in chapters) {
-                            const verses = chapters[chapterNum];
-
-                            for (const verseNum in verses) {
-                                const value = verses[verseNum];
-
-                                let text: string;
-                                let title: string | null = null;
-
-                                if (typeof value === "string") {
-                                    text = value;
-                                } else if (value && typeof value === "object") {
-                                    text = value.text ?? "";
-                                    title = value.title ?? null;
-                                } else {
-                                    text = "";
-                                }
-
-                                insertVerseStmt.run(
-                                    metadataId,
-                                    bookId,
-                                    Number(chapterNum) || 0,
-                                    Number(verseNum) || 0,
-                                    text,
-                                    title
-                                );
-                            }
-                        }
-                    }
-                }
+                const insertAll = ctx.db.transaction(() => importBibleData(data, metadataId, ctx));
+                insertAll();
+                finalizeDatabase(ctx.db);
+                ctx.db.close();
             }
-        });
+        }
 
-        insertAll();
-        db.close();
-
-        console.log(`✅ Completed Language: ${folder}`);
+        console.log(`Done: ${folder}`);
     }
 
-    console.log("\n🎉 Migration completed successfully!");
+    console.log("Migration completed");
 }
-active_bibles(); // Process manifest-based translations
-migration();     // Process language-based folders
+active_bibles();
+migration();
