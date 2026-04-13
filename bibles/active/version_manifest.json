@@ -1,0 +1,52 @@
+{
+  "versions": [
+    {
+      "id": "KJV",
+      "name": "King James Version",
+      "description": "Public Domain",
+      "language": "en",
+      "file": "kjv.json",
+      "cover_image": "assets/images/kjv_cover.png"
+    },
+    {
+      "id": "AMH",
+      "name": "Amharic Bible",
+      "description": "የአማርኛ መጽሐፍ ቅዱስ",
+      "language": "am",
+      "file": "amh.json",
+      "cover_image": "assets/images/1954.png"
+    },
+    {
+      "id": "NASV",
+      "name": "አዲሱ መደበኛ ትርጉም",
+      "description": "አዲሱ መደበኛ ትርጉም",
+      "language": "am",
+      "file": "nasv.json",
+      "cover_image": "assets/images/amh_cover.png"
+    },
+    {
+      "id": "NIV",
+      "name": "New International Version",
+      "description": "New International Version",
+      "language": "en",
+      "file": "niv.json",
+      "cover_image": "assets/images/niv_cover.png"
+    },
+    {
+      "id": "ORO",
+      "name": "Macaafa Qulqulluu",
+      "description": "Oromo Bible Translation",
+      "language": "om",
+      "file": "oro.json",
+      "cover_image": "assets/images/oromo.png"
+    },
+    {
+      "id": "TIG",
+      "name": "Tigrigna Bible",
+      "description": "ትግርኛ መጽሓፍ ቅዱስ",
+      "language": "ti",
+      "file": "tig.json",
+      "cover_image": "assets/images/tig.png"
+    }
+  ]
+}
