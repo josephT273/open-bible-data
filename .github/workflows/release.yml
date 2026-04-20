@@ -22,7 +22,11 @@ jobs:
 
       - name: Install dependencies
         run: bun install
-        
+
+      - name: Set Release Tag
+        id: vars
+        run: echo "RELEASE_TAG=v1.0.${{ github.run_number }}" >> $GITHUB_ENV
+
       - name: Generate SQLite Databases
         run: bun run bible.ts
 
@@ -39,9 +43,9 @@ jobs:
       - name: Create Release and Upload Assets
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: latest
-          name: "Latest Bible Data Update"
-          body: "Automated database update. Includes latest SQLite files and JSON manifest."
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: "Bible Data Update ${{ env.RELEASE_TAG }}"
+          body: "Automated database update. Includes SQLite files and JSON manifest."
           draft: false
           prerelease: false
           files: |

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T18:46:06.932Z",
+  "updated_at": "2026-04-20T19:24:33.679Z",
   "release_tag": "latest",
   "total": 95,
   "versions": [
@@ -19,9 +19,9 @@
       "language": "am",
       "language_short": "AM",
       "description": "የአማርኛ መጽሐፍ ቅዱስ",
-      "file": "Amharic_Bible.sqlite",
+      "file": "AMH.sqlite",
       "size": 6852608,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/Amharic_Bible.sqlite"
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/AMH.sqlite"
     },
     {
       "id": "SVD",
@@ -499,9 +499,9 @@
       "language": "en",
       "language_short": "EN",
       "description": "Public Domain",
-      "file": "King_James_Version.sqlite",
+      "file": "KJV.sqlite",
       "size": 5246976,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/King_James_Version.sqlite"
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/KJV.sqlite"
     },
     {
       "id": "ಕನ್ನಡ IRV",
@@ -554,16 +554,6 @@
       "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/LV-Latvian_lv_gluck_8.sqlite"
     },
     {
-      "id": "ORO",
-      "name": "Macaafa Qulqulluu",
-      "language": "om",
-      "language_short": "OM",
-      "description": "Oromo Bible Translation",
-      "file": "Macaafa_Qulqulluu.sqlite",
-      "size": 5799936,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/Macaafa_Qulqulluu.sqlite"
-    },
-    {
       "id": "Maori",
       "name": "Maori Bible",
       "language": "Maori",
@@ -594,6 +584,16 @@
       "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/MY-Burmese_my_judson.sqlite"
     },
     {
+      "id": "NASV",
+      "name": "አዲሱ መደበኛ ትርጉም",
+      "language": "am",
+      "language_short": "AM",
+      "description": "አዲሱ መደበኛ ትርጉም",
+      "file": "NASV.sqlite",
+      "size": 8609792,
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/NASV.sqlite"
+    },
+    {
       "id": "अनलक शाब्दिक बाइबल",
       "name": "अनलक शाब्दिक बाइबल",
       "language": "NE-Nepali",
@@ -609,9 +609,9 @@
       "language": "en",
       "language_short": "EN",
       "description": "New International Version",
-      "file": "New_International_Version.sqlite",
+      "file": "NIV.sqlite",
       "size": 5033984,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/New_International_Version.sqlite"
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/NIV.sqlite"
     },
     {
       "id": "Stve",
@@ -622,6 +622,16 @@
       "file": "NL-Dutch_stve.sqlite",
       "size": 5443584,
       "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/NL-Dutch_stve.sqlite"
+    },
+    {
+      "id": "ORO",
+      "name": "Macaafa Qulqulluu",
+      "language": "om",
+      "language_short": "OM",
+      "description": "Oromo Bible Translation",
+      "file": "ORO.sqlite",
+      "size": 5799936,
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/ORO.sqlite"
     },
     {
       "id": "ਪੰਜਾਬੀ IRV",
@@ -809,9 +819,9 @@
       "language": "ti",
       "language_short": "TI",
       "description": "ትግርኛ መጽሓፍ ቅዱስ",
-      "file": "Tigrigna_Bible.sqlite",
+      "file": "TIG.sqlite",
       "size": 7118848,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/Tigrigna_Bible.sqlite"
+      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/TIG.sqlite"
     },
     {
       "id": "TAB",
@@ -942,16 +952,6 @@
       "file": "ZH-Chinese_ckjv_sdt.sqlite",
       "size": 4358144,
       "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/ZH-Chinese_ckjv_sdt.sqlite"
-    },
-    {
-      "id": "NASV",
-      "name": "አዲሱ መደበኛ ትርጉም",
-      "language": "am",
-      "language_short": "AM",
-      "description": "አዲሱ መደበኛ ትርጉም",
-      "file": "አዲሱ_መደበኛ_ትርጉም.sqlite",
-      "size": 8609792,
-      "url": "https://github.com/josephT273/open-bible-data/releases/latest/download/አዲሱ_መደበኛ_ትርጉም.sqlite"
     }
   ]
 }

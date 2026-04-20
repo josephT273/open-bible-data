@@ -321,7 +321,7 @@ export function active_bibles() {
     for (const info of manifest.versions) {
         console.log(`Active: ${info.name}`);
 
-        const ctx = createDbContext(path.join(OUTPUT, `${safeDbName(info.name)}.sqlite`));
+        const ctx = createDbContext(path.join(OUTPUT, `${safeDbName(info.id)}.sqlite`));
 
         const metadataId = insertMetadata(ctx.insertMetaStmt, undefined, {
             name: info.name,
