@@ -1,0 +1,50 @@
+name: Build and Release Open Bible Data
+
+on:
+  push:
+    branches:
+      - prod
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+        
+      - name: Set Release Tag
+        id: vars
+        run: echo "RELEASE_TAG=v1.0.${{ github.run_number }}" >> $GITHUB_ENV
+
+      - name: Generate SQLite Databases
+        run: bun run bible.ts
+
+      - name: Generate Manifest
+        run: bun run manifest.ts
+        env:
+          GITHUB_REF_NAME: ${{ env.RELEASE_TAG }}
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: "Bible Data Update ${{ env.RELEASE_TAG }}"
+          body: "Automated database update. Included ${{ env.RELEASE_TAG }} SQLite files and the new JSON manifest."
+          draft: false
+          prerelease: false
+          files: |
+            sqlite/*.sqlite
+            manifest.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

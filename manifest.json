@@ -1,0 +1,957 @@
+{
+  "updated_at": "2026-04-20T18:38:04.291Z",
+  "release_tag": "latest",
+  "total": 95,
+  "versions": [
+    {
+      "id": "Afrikaans",
+      "name": "Afrikaans 1953",
+      "language": "Afrikanns",
+      "language_short": "af",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Afrikaans 1953</b><p />1933/1953 Afrikaans Bybel,<br />\nCopyright 1933, 1953, Bybelgenootskap van Suid Afrika<p />\nThis copyright Bible has kindly been made available by the Bible Society of South Africa, strictly for non-commercial use with The SWORD Project. Please consider making a contribution to them to help fund their continuing efforts in Bible translation, such as their current Southern Ndebele translation project. To contribute towards the distribution of affordable Bibles in South Africa, visit:<br />\n<a href='http://www.biblesociety.co.za/contributions.htm' target='_blank'>http://www.biblesociety.co.za/contributions.htm</a>.</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "AF-Afrikaans_afri.sqlite",
+      "size": 5251072,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/AF-Afrikaans_afri.sqlite"
+    },
+    {
+      "id": "AMH",
+      "name": "Amharic Bible",
+      "language": "am",
+      "language_short": "AM",
+      "description": "የአማርኛ መጽሐፍ ቅዱስ",
+      "file": "Amharic_Bible.sqlite",
+      "size": 6852608,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/Amharic_Bible.sqlite"
+    },
+    {
+      "id": "SVD",
+      "name": "Smith Van Dyke",
+      "language": "Arabic",
+      "language_short": "ar",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Arabic: Smith & Van Dyke</b><p />Arabic Bible<br />\nTranslated by Smith & Van Dyke, 1865.</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "AR-Arabic_svd.sqlite",
+      "size": 5357568,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/AR-Arabic_svd.sqlite"
+    },
+    {
+      "id": "বেঙ্গলী IRV",
+      "name": "ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী ",
+      "language": "BN-Bengali",
+      "language_short": "bn",
+      "description": "<h2>ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী</h2><h2>Bengali: ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী (Bible)</h2><h2>बंगाली भाषा में पवित्र बाइबिल</h2><p>copyright © 2018 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions Pvt. Ltd.</a><br>Language: <a href=\"http://www.ethnologue.org/language/ben\">বাংলা (Bengali)</a><br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "BN-Bengali_bn_irv.sqlite",
+      "size": 11456512,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/BN-Bengali_bn_irv.sqlite"
+    },
+    {
+      "id": "བོད་ཡིག་གསར་པ།",
+      "name": "དམ་པའི་གསུང་རབ་བོད་འགྱུར་གསར་མ།",
+      "language": "BO-Tibetan",
+      "language_short": "bo",
+      "description": "<h2>དམ་པའི་གསུང་རབ་བོད་འགྱུར་གསར་མ།</h2><h2>The Holy Bible in Modern Literary Tibetan, New Tibetan Bible translation: དམ་པའི་གསུང་རབ་བོད་འགྱུར་གསར་མ།</h2><p>copyright © 2016-2023 <a href=\"https://new-tibetan-bible.com/\">New Tibetan Bible Translation Committee</a><br>Language: <a href=\"http://www.ethnologue.org/language/bod\">བོད་ཡིག (Tibetan)</a><br>Dialect: Modern Literary<br><br>\"New Tibetan Bible\" is a trademark of the New Tibetan Bible Translation Committee. If you produce a new translation using the New Tibetan Bible as a source text, you must not call your new translation the New Tibetan Bible or NTB.</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "BO-Tibetan_bo_ntb.sqlite",
+      "size": 15233024,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/BO-Tibetan_bo_ntb.sqlite"
+    },
+    {
+      "id": "BKR",
+      "name": "Bible Kralicka",
+      "language": "Czech",
+      "language_short": "cs",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Czech BKR</b><p />Czech Bible Kralicka: Bible svata aneb vsecka svata pisma\nStareho i Noveho Zakona podle posledniho vydani kralickeho z roku 1613.</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "CS-Czech_bkr.sqlite",
+      "size": 4988928,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/CS-Czech_bkr.sqlite"
+    },
+    {
+      "id": "Elberfelder (1871)",
+      "name": "Elberfelder (1871)",
+      "language": "DE-German",
+      "language_short": "de",
+      "description": "<b>German: Elberfelder (1871)</b><p />1871 Elberfelder Bible<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "DE-German_elberfelder_1871.sqlite",
+      "size": 5730304,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/DE-German_elberfelder_1871.sqlite"
+    },
+    {
+      "id": "Elberfelder (1905)",
+      "name": "Elberfelder (1905)",
+      "language": "DE-German",
+      "language_short": "de",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>German: Elberfelder (1905)</b><p />German Darby Unrevidierte Elberfelder 1905,<br />\nCopyright by R. Bockhaus Verlages</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "DE-German_elberfelder_1905.sqlite",
+      "size": 5443584,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/DE-German_elberfelder_1905.sqlite"
+    },
+    {
+      "id": "Luther",
+      "name": "Luther Bible (1545)",
+      "language": "German",
+      "language_short": "de",
+      "description": "<p><strong>German: Luther (1545)</strong></p>\n\n<p>Made available in electronic format by Michael Bolsinger at http://www.luther-bibel-1545.de (see here for the most recent versions in text and HTML format).</p>\n\n<p>It was converted to SWORD format by Matthias and Joachim Ansorg Please report any errors to the following address:</p>\n\n<p>Joachim and Matthias Ansorg<br />\nPoststra 2<br />\nD-56479 Salzburg/WW<br />\nPhone +49 (2667) 1480<br />\ne-mail joachim_at_ansorgs.de<br />\n<br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n",
+      "file": "DE-German_luther.sqlite",
+      "size": 5091328,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/DE-German_luther.sqlite"
+    },
+    {
+      "id": "Luther (1912)",
+      "name": "Luther Bible (1912)",
+      "language": "DE-German",
+      "language_short": "de",
+      "description": "<p><strong>German: Luther (1912)</strong></p>\n\n<p>1912 Lutherbibel<br />\n<br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n",
+      "file": "DE-German_luther_1912.sqlite",
+      "size": 5193728,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/DE-German_luther_1912.sqlite"
+    },
+    {
+      "id": "Schlachter",
+      "name": "Schlachter Bibel",
+      "language": "DE-German",
+      "language_short": "de",
+      "description": "1951 Schlachter Bibel - Copyrighted; Free non-commercial distribution<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "DE-German_schlachter.sqlite",
+      "size": 5353472,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/DE-German_schlachter.sqlite"
+    },
+    {
+      "id": "ASV",
+      "name": "American Standard Version",
+      "language": "Unknown",
+      "language_short": "en",
+      "description": "<h2><strong>The English Revised Version, 1881-1895</strong><br />\nIncluding the American Standard Version, 1901</h2>\n\n<hr />\n<p>The article TEXT OF THE NEW TESTAMENT describes the process of accumulation of materials which began with the coming of the Codex Alexandrinus to London in 1625, and continues to the present day, and the critical use made of these materials in the 19th century; and the story need not be repeated here. It was not until the progress of criticism had revealed the defective state of the received Greek text of the New Testament that any movement arose for the revision of the Authorized Version. About the year 1855 the question began to be mooted in magazine articles and motions in Convocation, and by way of bringing it to a head a small group of scholars (Dr. Ellicott, afterwards bishop of Gloucester, Dr. Moberly, head master of Winchester and afterwards bishop of Salisbury, Dr. Barron, principal of St. Edmund&#39;s Hall, Oxford, the Rev. H. Alford, afterwards dean of Canterbury, and the Rev. W.G. Humphrey; with the Rev. E. Hawkins, secretary of the S.P.G., and afterwards canon of Westminster, as their secretary) undertook a revision of the Authorized Version of John, which was published in 1857. Six of the Epistles followed in 1861 and 1863, by which time the object of the work, in calling attention to the need and the possibility of a revision, had been accomplished. Meanwhile a great stimulus to the interest in textual criticism had been given by the discovery of the Codex Sinaiticus, and by the work of Tischendorf and Tregelles. In February 1870 a motion for a committee to consider the desirableness of a revision was adopted by both houses of the Convocation of Canterbury; and definite motions in favor of such a revision were passed in the following May. The Convocation of York did not concur, and thenceforth the Southern Houses proceeded alone. A committee of both houses drew up the lists of revisers, and framed the rules for their guidance. The Old Testament company consisted of 25 (afterwards 27) members, the New Testament of 26. The rules prescribed the introduction of as few alterations in the Authorized Version as possible consistently with faithfulness; the text to be adopted for which the evidence is decidedly preponderating, and when it differs from that from which the Authorized Version was made, the alteration to be indicated in the margin (this rule was found impracticable); alterations to be made on the first revision by simple majorities, but to be retained only if passed by a two-thirds majority on the second revision. Both companies commenced work at Westminster on June 22, 1870. The New Testament company met on 407 days in the course of eleven years, the Old Testament company on 792 days in fifteen years. Early in the work the cooperation of American scholars was invited, and in consequence two companies of 15 and 16 members respectively were formed, which began work in 1872, considering the results of the English revision as each section of it was forwarded to them. The collaboration of the English and American companies was perfectly harmonious; and by agreement those recommendations of the American Revisers which were not adopted by the English companies, but to which the proposers nevertheless wished to adhere, were printed in an appendix to the published Bible. Publication took place, in the case of the New Testament, on May 17, 1881, and in the case of the canonical books of the Old Testament almost exactly four years later. The revision of the Apocrypha was divided between the two English companies, and was taken up by each company on the completion of its main work. The New Testament company distributed Sirach, Tobit, Judith, Wisdom, 1 and 2 Maccabees among three groups of its members, and the Old Testament company appointed a small committee to deal with the remaining books. The work dragged on over many years, involving some inequalities in revision, and ultimately the Apocrypha was published in 1895.<br />\n<br />\nIn dealing with the Old Testament the Revisers were not greatly concerned with questions of text. The Massoretic Hebrew text available in 1870 was substantially the same as that which King James&#39; translators had before them; and the criticism of the Septuagint version was not sufficiently advanced to enable them safely to make much use of it except in marginal notes. Their work consisted mainly in the correction of mistranslations which imperfect Hebrew scholarship had left in the Authorized Version. Their changes as a rule are slight, but tend very markedly to remove obscurities and to improve the intelligibility of the translation. The gain is greatest in the poetical and prophetical books (poetical passages are throughout printed as such, which in itself is a great improvement), and there cannot be much doubt that if the revision of the Old Testament had stood by itself it would have been generally accepted without much opposition. With the new version of the New Testament the case was different. The changes were necessarily more numerous than in the Old Testament, and the greater familiarity with the New Testament possessed by readers in general made the alterations more conspicuous. The New Testament revisers had, in effect, to form a new Greek text before they could proceed to translate it. In this part of their work they were largely influenced by the presence of Drs. Westcott and Hort, who, as will be shown elsewhere [TEXT OF THE NEW TESTAMENT], were keen and convinced champions of the class of text of which the best representative is the Codex Vaticanus. At the same time Dr. Scrivener, who took a less advanced view of the necessity of changes in the Received Text, was also a prominent member of the company, and it is probably true that not many new readings were adopted which had not the support of Tischendorf and Tregelles, and which would not be regarded by nearly all scholars acquainted with textual criticism as preferable to those of the Authorized Version. To Westcott and Hort may be assigned a large part of the credit for leading the Revisers definitely along the path of critical science; but the Revisers did not follow their leaders the whole way, and their text (edited by Archdeacon Palmer for the Oxford Press in 1881) represents a more conservative attitude than that of the two Cambridge scholars. Nevertheless the amount of textual change was considerable, and to this was added a very large amount of verbal change, sometimes (especially in the Epistles) to secure greater intelligibility, but oftener (and this is more noticeable in the Gospels) to secure uniformity in the translation of Greek words which the Authorized Version deliberately rendered differently in different places (even in parallel narratives of the same event), and precision in the representation of moods and tenses. It was to the great number of changes of this kind, which by themselves appeared needless and pedantic, that most of the criticism bestowed upon the Revised Version was due; but it must be remembered that where the words and phrases of a book are often strained to the uttermost in popular application, it is of great importance that those words and phrases should be as accurately rendered as possible. On the whole, it is certain that the Revised Version marks a great advance on the Authorized Version in respect of accuracy, and the main criticisms to which it is justly open are that the principles of classical Greek were applied too rigidly to Greek which is not classical, and that the Revisers, in their careful attention to the Greek, were less happily inspired than their predecessors with the genius of the English language. These defects have no doubt militated against the general acceptance of the Revised Version; but whether they continue to do so or not (and it is to be remembered that we have not yet passed through nearly so long a period as that during which the Authorized Version competed with the Geneva Bible or Jerome&#39;s Vulgate with the Old Latin), it is certain that no student of the Bible can afford to neglect the assistance given by the Revised Version towards the true understanding of the Scriptures. In so using it, it should be remembered that renderings which appear in the margin not infrequently represent the views of more than half the Revisers, though they failed to obtain the necessary two-thirds majority. This is perhaps especially the case in the Old Testament, where the Revised Version shows a greater adherence to the Authorized Version than in the New Testament.<br />\n<br />\nIt only remains to add that, after the lapse of the 14 years during which it was agreed that no separate American edition should be brought out, while the American appendix continued to appear in the English Revised Version, the American Revisers issued a fresh recension (New Testament in 1900, Old Testament in 1901, without the Apocrypha), embodying not only the readings which appeared in their appendix to the English Revised Version, but also others on which they had since agreed. It is unfortunate that the action originally taken by the English revisers with a view to securing that the two English-speaking nations should continue to have a common Bible should have brought about the opposite result; and though the alterations introduced by the American revisers eminently deserve consideration on their merits, it may be doubted whether the net result is important enough to justify the existence of a separate version. What influence it may have upon the history of the English Bible in the future it is for the future to decide.<br />\n<br />\nFrederic G. Kenyon<br />\n<br />\n<br />\n<br />\nThis Bible imported from Bible Analyzer <a href=\"http://www.bibleanalyzer.com/download.htm\">http://www.bibleanalyzer.com/download.htm</a></p>\n",
+      "file": "EN-English_asv.sqlite",
+      "size": 5275648,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_asv.sqlite"
+    },
+    {
+      "id": "ASVs",
+      "name": "American Standard Version w Strong's",
+      "language": "Unknown",
+      "language_short": "en",
+      "description": "\n<h2 align=\"center\"><b>The English Revised Version, 1881</b></h2>\n<p align=\"center\"><b>Including the American Standard Version, 1901</b></p>\n<p>(Applying Strong's numbering to the public domain ASV text was done as part of the \"Cross Word Project\" and is copyright Wade Maxfield. The modified text has been released by him for any purpose.)</p><p>(The addition of omitted numbers in a several verses and some corrections were made to the numbers by Tim Morton of BibleAnalyzer.com)</p>\n\n<hr>\nThe article TEXT OF THE NEW TESTAMENT describes the process of accumulation of materials which began with the coming of the Codex Alexandrinus to London in 1625, and continues to the present day, and the critical use made of these materials in the 19th century; and the story need not be repeated here. It was not until the progress of criticism had revealed the defective state of the received Greek text of the New Testament that any movement arose for the revision of the Authorized Version. About the year 1855 the question began to be mooted in magazine articles and motions in Convocation, and by way of bringing it to a head a small group of scholars (Dr. Ellicott, afterwards bishop of Gloucester, Dr. Moberly, head master of Winchester and afterwards bishop of Salisbury, Dr. Barron, principal of St. Edmund's Hall, Oxford, the Rev. H. Alford, afterwards dean of Canterbury, and the Rev. W.G. Humphrey; with the Rev. E. Hawkins, secretary of the S.P.G., and afterwards canon of Westminster, as their secretary) undertook a revision of the Authorized Version of John, which was published in 1857. Six of the Epistles followed in 1861 and 1863, by which time the object of the work, in calling attention to the need and the possibility of a revision, had been accomplished. Meanwhile a great stimulus to the interest in textual criticism had been given by the discovery of the Codex Sinaiticus, and by the work of Tischendorf and Tregelles. In February 1870 a motion for a committee to consider the desirableness of a revision was adopted by both houses of the Convocation of Canterbury; and definite motions in favor of such a revision were passed in the following May. The Convocation of York did not concur, and thenceforth the Southern Houses proceeded alone. A committee of both houses drew up the lists of revisers, and framed the rules for their guidance. The Old Testament company consisted of 25 (afterwards 27) members, the New Testament of 26. The rules prescribed the introduction of as few alterations in the Authorized Version as possible consistently with faithfulness; the text to be adopted for which the evidence is decidedly preponderating, and when it differs from that from which the Authorized Version was made, the alteration to be indicated in the margin (this rule was found impracticable); alterations to be made on the first revision by simple majorities, but to be retained only if passed by a two-thirds majority on the second revision. Both companies commenced work at Westminster on June 22, 1870. The New Testament company met on 407 days in the course of eleven years, the Old Testament company on 792 days in fifteen years. Early in the work the cooperation of American scholars was invited, and in consequence two companies of 15 and 16 members respectively were formed, which began work in 1872, considering the results of the English revision as each section of it was forwarded to them. The collaboration of the English and American companies was perfectly harmonious; and by agreement those recommendations of the American Revisers which were not adopted by the English companies, but to which the proposers nevertheless wished to adhere, were printed in an appendix to the published Bible. Publication took place, in the case of the New Testament, on May 17, 1881, and in the case of the canonical books of the Old Testament almost exactly four years later. The revision of the Apocrypha was divided between the two English companies, and was taken up by each company on the completion of its main work. The New Testament company distributed Sirach, Tobit, Judith, Wisdom, 1 and 2 Maccabees among three groups of its members, and the Old Testament company appointed a small committee to deal with the remaining books. The work dragged on over many years, involving some inequalities in revision, and ultimately the Apocrypha was published in 1895.<br><br> \nIn dealing with the Old Testament the Revisers were not greatly concerned with questions of text. The Massoretic Hebrew text available in 1870 was substantially the same as that which King James' translators had before them; and the criticism of the Septuagint version was not sufficiently advanced to enable them safely to make much use of it except in marginal notes. Their work consisted mainly in the correction of mistranslations which imperfect Hebrew scholarship had left in the Authorized Version. Their changes as a rule are slight, but tend very markedly to remove obscurities and to improve the intelligibility of the translation. The gain is greatest in the poetical and prophetical books (poetical passages are throughout printed as such, which in itself is a great improvement), and there cannot be much doubt that if the revision of the Old Testament had stood by itself it would have been generally accepted without much opposition. With the new version of the New Testament the case was different. The changes were necessarily more numerous than in the Old Testament, and the greater familiarity with the New Testament possessed by readers in general made the alterations more conspicuous. The New Testament revisers had, in effect, to form a new Greek text before they could proceed to translate it. In this part of their work they were largely influenced by the presence of Drs. Westcott and Hort, who, as will be shown elsewhere [TEXT OF THE NEW TESTAMENT], were keen and convinced champions of the class of text of which the best representative is the Codex Vaticanus. At the same time Dr. Scrivener, who took a less advanced view of the necessity of changes in the Received Text, was also a prominent member of the company, and it is probably true that not many new readings were adopted which had not the support of Tischendorf and Tregelles, and which would not be regarded by nearly all scholars acquainted with textual criticism as preferable to those of the Authorized Version. To Westcott and Hort may be assigned a large part of the credit for leading the Revisers definitely along the path of critical science; but the Revisers did not follow their leaders the whole way, and their text (edited by Archdeacon Palmer for the Oxford Press in 1881) represents a more conservative attitude than that of the two Cambridge scholars. Nevertheless the amount of textual change was considerable, and to this was added a very large amount of verbal change, sometimes (especially in the Epistles) to secure greater intelligibility, but oftener (and this is more noticeable in the Gospels) to secure uniformity in the translation of Greek words which the Authorized Version deliberately rendered differently in different places (even in parallel narratives of the same event), and precision in the representation of moods and tenses. It was to the great number of changes of this kind, which by themselves appeared needless and pedantic, that most of the criticism bestowed upon the Revised Version was due; but it must be remembered that where the words and phrases of a book are often strained to the uttermost in popular application, it is of great importance that those words and phrases should be as accurately rendered as possible. On the whole, it is certain that the Revised Version marks a great advance on the Authorized Version in respect of accuracy, and the main criticisms to which it is justly open are that the principles of classical Greek were applied too rigidly to Greek which is not classical, and that the Revisers, in their careful attention to the Greek, were less happily inspired than their predecessors with the genius of the English language. These defects have no doubt militated against the general acceptance of the Revised Version; but whether they continue to do so or not (and it is to be remembered that we have not yet passed through nearly so long a period as that during which the Authorized Version competed with the Geneva Bible or Jerome's Vulgate with the Old Latin), it is certain that no student of the Bible can afford to neglect the assistance given by the Revised Version towards the true understanding of the Scriptures. In so using it, it should be remembered that renderings which appear in the margin not infrequently represent the views of more than half the Revisers, though they failed to obtain the necessary two-thirds majority. This is perhaps especially the case in the Old Testament, where the Revised Version shows a greater adherence to the Authorized Version than in the New Testament.<br><br> \nIt only remains to add that, after the lapse of the 14 years during which it was agreed that no separate American edition should be brought out, while the American appendix continued to appear in the English Revised Version, the American Revisers issued a fresh recension (New Testament in 1900, Old Testament in 1901, without the Apocrypha), embodying not only the readings which appeared in their appendix to the English Revised Version, but also others on which they had since agreed. It is unfortunate that the action originally taken by the English revisers with a view to securing that the two English-speaking nations should continue to have a common Bible should have brought about the opposite result; and though the alterations introduced by the American revisers eminently deserve consideration on their merits, it may be doubted whether the net result is important enough to justify the existence of a separate version. What influence it may have upon the history of the English Bible in the future it is for the future to decide.<br><br> \nFrederic G. Kenyon<br><br> \n<br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "EN-English_asvs.sqlite",
+      "size": 7802880,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_asvs.sqlite"
+    },
+    {
+      "id": "Bishops",
+      "name": "Bishops Bible",
+      "language": "English",
+      "language_short": "en",
+      "description": "Bishops Bible (1568)",
+      "file": "EN-English_bishops.sqlite",
+      "size": 5353472,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_bishops.sqlite"
+    },
+    {
+      "id": "Coverdale",
+      "name": "Coverdale Bible",
+      "language": "English",
+      "language_short": "en",
+      "description": "Miles Coverdale translation (1535)",
+      "file": "EN-English_coverdale.sqlite",
+      "size": 5226496,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_coverdale.sqlite"
+    },
+    {
+      "id": "Geneva",
+      "name": "Geneva Bible",
+      "language": "English",
+      "language_short": "en",
+      "description": "Geneva Bible (1587)",
+      "file": "EN-English_geneva.sqlite",
+      "size": 5292032,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_geneva.sqlite"
+    },
+    {
+      "id": "KJV",
+      "name": "Authorized King James Version",
+      "language": "English",
+      "language_short": "en",
+      "description": "<h2 style=\"text-align:center;\">The Authorized King James Version of 1611</h2><p style=\"text-align:center;\">1769 Edition, Red-Letter, w/Chapter Headings, Translator's Notes v1.3</p><p>The version which was destined to put the crown on nearly a century of labor, and, after extinguishing by its excellence all rivals, to print an indelible mark on English religion and English literature, came into being almost by accident. It arose out of the Hampton Court Conference, held by James I in 1604, with the object of arriving at a settlement between the Puritan and Anglican elements in the Church; but it was not one of the prime or original subjects of the conference. In the corse of discussion, Dr. Reynolds, president of Corpus Christi College, Oxford, the leader of the moderate Puritan party, referred to the imperfections and disagreements of the existing translations; and the suggestion of a new version, to be prepared by the best scholars in the country, was warmly taken up by the king. The conference, as a whole, was a failure; but James did not allow the idea of the revision to drop. He took an active part in the preparation of instructions for the work, and to him appears to be due the credit of two features which went far to secure its success. He suggested that the translation should be committed in the first instance to the universities (subject to subsequent review by the bishops and the Privy Council, which practically came to nothing), and thereby secured the services of the best scholars in the country, working in cooperation; and (on the suggestion of the bishop of London) he laid down that no marginal notes should be added, which preserved the new version from being the organ of any one party in the Church.<br><br>Ultimately it was arranged that six companies of translators should be formed, two at Westminster, two at Oxford, and two at Cambridge. The companies varied in strength from 7 to 10 members, the total (though there is some little doubt with regard to a few names) being 47. The Westminster companies undertook Genesis to 2 Kings and the Epistles, the Oxford companies the Prophets and the Gospels, Acts, and Apocalypse, and the Cambridge companies 1 Chronicles to Ecclesiastes and the Apocrypha. A series of rules was drawn up for their guidance. The Bishop's Bible was to be taken as the basis. The old ecclesiastical terms were to be kept. No marginal notes were to be affixed, except for the explanation of Hebrew or Greek words. Marginal references, on the contrary, were to be supplied. As each company finished a book, it was to send it to the other companies for their consideration. Suggestions were to be invited from the clergy generally, and opinions requested on passages of special difficulty from any learned man in the land. \"These translations to be used when they agree better with the text than the Bishops' Bible, namely, Tyndale's, Matthew's, Coverdale's, Whitchurch's (i.e. the Great Bible), Geneva.\" The translators claim further to have consulted all the available versions and commentaries in other languages, and to have repeatedly revised their own work, without grudging the time which it required. The time occupied by the whole work is stated by themselves as two years and three-quarters. The several companies appear to have begun their labors about the end of 1607, and to have taken two years in completing their several shares. A final revision, occupying nine months, was then made by a smaller body, consisting of two representatives from each company, after which it was seen through the press by Dr. Miles Smith and Bishop Bilson; and in 1611 the new version, printed by R. Barker, the king's printer, was given to the world in a large folio volume (the largest of all the series of English Bibles) of black letter type. The details of its issue are obscure. There were at least two issues in 1611, set up independently, known respectively as the \"He\" and \"She\" Bibles, from their divergence in the translation of the last words of Ruth 3:15; and bibliographers have differed as to their priority, though the general opinion is in favor of the former. 1 Some copies have a wood-block, others an engraved title-page, with different designs. The title-page was followed by the dedication to King James, which still stands in our ordinary copies of the Authorized Version, and this by the translators' preface (believed to have been written by Dr. Miles Smith), which is habitually omitted. (It is printed in the present King's Printers' Variorum Bible, and is interesting and valuable both as an example of the learning of the age and for its description of the translators' labors.) For the rest, the contents and arrangement of the Authorized Version are too well known to every reader to need description.<br><br>Nor is it necessary to dwell at length on the characteristics of the translation. Not only was it superior to all its predecessors, but its excellence was so marked that no further revision was attempted for over 250 years. Its success must be attributed to the fact which differentiated it from its predecessors, namely, that it was not the work of a single scholar (like Tyndale's, Coverdale's, and Matthew's Bibles), or of a small group (like the Geneva and Douai Bibles), or of a large number of men working independently with little supervision (like the Bishops' Bible), but was produced by the collaboration of a carefully selected band of scholars, working with ample time and with full and repeated revision. Nevertheless, it was not a new translation. It owed much to its predecessors. The translators themselves say, in their preface: \"We never thought from the beginning that we should need to make a new translation, nor yet to make of a bad one a good one, ... but to make a good one better, or out of many good ones one principal good one, not justly to be excepted against; that hath been our endeavor, that our mark.\" The description is very just. The foundations of the Authorized Version were laid by Tyndale, and a great part of his work continued through every revision. Each succeeding version added something to the original stock, Coverdale (in his own and the Great Bible) and the Genevan scholars contributing the largest share; and the crown was set upon the whole by the skilled labor of the Jacobean divines, making free use of the materials accumulated by others, and happily inspired by the gift of style which was the noblest literary achievement of the age in which they lived. A sense of the solemnity of their subject saved them from the extravagances and conceits which sometimes mar that style; and, as a result, they produced a work which, from the merely literary point of view, is the finest example of Jacobean prose, and has influenced incalculably the whole subsequent course of English literature. On the character and spiritual history of the nation it has left an even deeper mark, to which many writers have borne eloquent testimony; and if England has been, and is, a Bible-reading and Bible-loving country, it is in no small measure due to her possession of a version so nobly executed as the Authorized Version.<br><br>The history of the Authorized Version after 1611 can be briefly sketched. In spite of the name by which it is commonly known, and in spite of the statement on both title-pages of 1611 that it was \"appointed to be read in churches,\" there is no evidence that it was ever officially authorized either by the Crown or by Convocation. Its authorization seems to have been tacit and gradual. The Bishops' Bible, hitherto the official version, ceased to be reprinted, and the Authorized Version no doubt gradually replaced it in churches as occasion arose. In domestic use its fortunes were for a time more doubtful, and for two generations it existed concurrently with the Geneva Bible; but before the century was out its predominance was assured. The first quarto and octavo editions were issued in 1612; and thenceforth editions were so numerous that it is useless to refer to any except a few of them. The early editions were not very correctly printed. In 1638 an attempt to secure a correct text was made by a small group of Cambridge scholars. In 1633 the first edition printed in Scotland was published. In 1701 Bishop Lloyd superintended the printing of an edition at Oxford, in which Archbishop Ussher's dates for Scripture chronology were printed in the margin, where they henceforth remained. In 1717 a fine edition, printed by Baskett at Oxford, earned bibliographical notoriety as \"The Vinegar Bible\" from a misprint in the headline over Luke 20. 2 In 1762 a carefully revised edition was published at Cambridge under the editorship of Dr. T. Paris, and a similar edition, superintended by Dr. B. Blayney, appeared at Oxford in 1769. These two editions, in which the text was carefully revised, the spelling modernized, the punctuation corrected, and considerable alteration made in the marginal notes, formed the standard for subsequent reprints of the Authorized Version, which differ in a number of details, small in importance but fairly numerous in the aggregate, from the original text of 1611. One other detail remains to be mentioned. In 1666 appeared the first edition of the Authorized Version from which the Apocrypha was omitted. It had previously been omitted from some editions of the Geneva Bible, from 1599 onwards. The Nonconformists took much objection to it, and in 1664 the Long Parliament forbade the reading of lessons from it in public; but the lectionary of the English Church always included lessons from it. The example of omission was followed in many editions subsequently. The first edition printed in America (apart from a surreptitious edition of 1752), in 1782, is without it. In 1826 the British and Foreign Bible Society, which has been one of the principal agents in the circulation of the Scriptures throughout the world, decided never in the future to print or circulate copies containing the Apocrypha; and this decision has been carried into effect ever since.<br><br>&nbsp;</p><p>Frederic G. Kenyon (excerpt)</p><p><br><br>This Bible imported from Bible Analyzer <a href=\"http://www.bibleanalyzer.com/download.htm\">http://www.bibleanalyzer.com/download.htm</a></p>",
+      "file": "EN-English_kjv.sqlite",
+      "size": 5337088,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_kjv.sqlite"
+    },
+    {
+      "id": "KJV Strongs",
+      "name": "KJV with Strongs",
+      "language": "English",
+      "language_short": "en",
+      "description": "\n<b>The Authorized King James Version, w/Strong's + TVM</b><br><br>\n1769 Edition with Strong's Numbers including Tense, Voice and Mood, v1.1<br><br>\nThe version which was destined to put the crown on nearly a century of labor, and, after extinguishing by its excellence all rivals, to print an indelible mark on English religion and English literature, came into being almost by accident. It arose out of the Hampton Court Conference, held by James I in 1604, with the object of arriving at a settlement between the Puritan and Anglican elements in the Church; but it was not one of the prime or original subjects of the conference. In the corse of discussion, Dr. Reynolds, president of Corpus Christi College, Oxford, the leader of the moderate Puritan party, referred to the imperfections and disagreements of the existing translations; and the suggestion of a new version, to be prepared by the best scholars in the country, was warmly taken up by the king. The conference, as a whole, was a failure; but James did not allow the idea of the revision to drop. He took an active part in the preparation of instructions for the work, and to him appears to be due the credit of two features which went far to secure its success. He suggested that the translation should be committed in the first instance to the universities (subject to subsequent review by the bishops and the Privy Council, which practically came to nothing), and thereby secured the services of the best scholars in the country, working in cooperation; and (on the suggestion of the bishop of London) he laid down that no marginal notes should be added, which preserved the new version from being the organ of any one party in the Church.<br><br> \nUltimately it was arranged that six companies of translators should be formed, two at Westminster, two at Oxford, and two at Cambridge. The companies varied in strength from 7 to 10 members, the total (though there is some little doubt with regard to a few names) being 47. The Westminster companies undertook Genesis to 2 Kings and the Epistles, the Oxford companies the Prophets and the Gospels, Acts, and Apocalypse, and the Cambridge companies 1 Chronicles to Ecclesiastes and the Apocrypha. A series of rules was drawn up for their guidance. The Bishop's Bible was to be taken as the basis. The old ecclesiastical terms were to be kept. No marginal notes were to be affixed, except for the explanation of Hebrew or Greek words. Marginal references, on the contrary, were to be supplied. As each company finished a book, it was to send it to the other companies for their consideration. Suggestions were to be invited from the clergy generally, and opinions requested on passages of special difficulty from any learned man in the land. \"These translations to be used when they agree better with the text than the Bishops' Bible, namely, Tyndale's, Matthew's, Coverdale's, Whitchurch's (i.e. the Great Bible), Geneva.\" The translators claim further to have consulted all the available versions and commentaries in other languages, and to have repeatedly revised their own work, without grudging the time which it required. The time occupied by the whole work is stated by themselves as two years and three-quarters. The several companies appear to have begun their labors about the end of 1607, and to have taken two years in completing their several shares. A final revision, occupying nine months, was then made by a smaller body, consisting of two representatives from each company, after which it was seen through the press by Dr. Miles Smith and Bishop Bilson; and in 1611 the new version, printed by R. Barker, the king's printer, was given to the world in a large folio volume (the largest of all the series of English Bibles) of black letter type. The details of its issue are obscure. There were at least two issues in 1611, set up independently, known respectively as the \"He\" and \"She\" Bibles, from their divergence in the translation of the last words of Ruth 3:15; and bibliographers have differed as to their priority, though the general opinion is in favor of the former. 1 Some copies have a wood-block, others an engraved title-page, with different designs. The title-page was followed by the dedication to King James, which still stands in our ordinary copies of the Authorized Version, and this by the translators' preface (believed to have been written by Dr. Miles Smith), which is habitually omitted. (It is printed in the present King's Printers' Variorum Bible, and is interesting and valuable both as an example of the learning of the age and for its description of the translators' labors.) For the rest, the contents and arrangement of the Authorized Version are too well known to every reader to need description.<br><br> \nNor is it necessary to dwell at length on the characteristics of the translation. Not only was it superior to all its predecessors, but its excellence was so marked that no further revision was attempted for over 250 years. Its success must be attributed to the fact which differentiated it from its predecessors, namely, that it was not the work of a single scholar (like Tyndale's, Coverdale's, and Matthew's Bibles), or of a small group (like the Geneva and Douai Bibles), or of a large number of men working independently with little supervision (like the Bishops' Bible), but was produced by the collaboration of a carefully selected band of scholars, working with ample time and with full and repeated revision. Nevertheless, it was not a new translation. It owed much to its predecessors. The translators themselves say, in their preface: \"We never thought from the beginning that we should need to make a new translation, nor yet to make of a bad one a good one, ... but to make a good one better, or out of many good ones one principal good one, not justly to be excepted against; that hath been our endeavor, that our mark.\" The description is very just. The foundations of the Authorized Version were laid by Tyndale, and a great part of his work continued through every revision. Each succeeding version added something to the original stock, Coverdale (in his own and the Great Bible) and the Genevan scholars contributing the largest share; and the crown was set upon the whole by the skilled labor of the Jacobean divines, making free use of the materials accumulated by others, and happily inspired by the gift of style which was the noblest literary achievement of the age in which they lived. A sense of the solemnity of their subject saved them from the extravagances and conceits which sometimes mar that style; and, as a result, they produced a work which, from the merely literary point of view, is the finest example of Jacobean prose, and has influenced incalculably the whole subsequent course of English literature. On the character and spiritual history of the nation it has left an even deeper mark, to which many writers have borne eloquent testimony; and if England has been, and is, a Bible-reading and Bible-loving country, it is in no small measure due to her possession of a version so nobly executed as the Authorized Version.<br><br> \nThe history of the Authorized Version after 1611 can be briefly sketched. In spite of the name by which it is commonly known, and in spite of the statement on both title-pages of 1611 that it was \"appointed to be read in churches,\" there is no evidence that it was ever officially authorized either by the Crown or by Convocation. Its authorization seems to have been tacit and gradual. The Bishops' Bible, hitherto the official version, ceased to be reprinted, and the Authorized Version no doubt gradually replaced it in churches as occasion arose. In domestic use its fortunes were for a time more doubtful, and for two generations it existed concurrently with the Geneva Bible; but before the century was out its predominance was assured. The first quarto and octavo editions were issued in 1612; and thenceforth editions were so numerous that it is useless to refer to any except a few of them. The early editions were not very correctly printed. In 1638 an attempt to secure a correct text was made by a small group of Cambridge scholars. In 1633 the first edition printed in Scotland was published. In 1701 Bishop Lloyd superintended the printing of an edition at Oxford, in which Archbishop Ussher's dates for Scripture chronology were printed in the margin, where they henceforth remained. In 1717 a fine edition, printed by Baskett at Oxford, earned bibliographical notoriety as \"The Vinegar Bible\" from a misprint in the headline over Luke 20. 2 In 1762 a carefully revised edition was published at Cambridge under the editorship of Dr. T. Paris, and a similar edition, superintended by Dr. B. Blayney, appeared at Oxford in 1769. These two editions, in which the text was carefully revised, the spelling modernized, the punctuation corrected, and considerable alteration made in the marginal notes, formed the standard for subsequent reprints of the Authorized Version, which differ in a number of details, small in importance but fairly numerous in the aggregate, from the original text of 1611. One other detail remains to be mentioned. In 1666 appeared the first edition of the Authorized Version from which the Apocrypha was omitted. It had previously been omitted from some editions of the Geneva Bible, from 1599 onwards. The Nonconformists took much objection to it, and in 1664 the Long Parliament forbade the reading of lessons from it in public; but the lectionary of the English Church always included lessons from it. The example of omission was followed in many editions subsequently. The first edition printed in America (apart from a surreptitious edition of 1752), in 1782, is without it. In 1826 the British and Foreign Bible Society, which has been one of the principal agents in the circulation of the Scriptures throughout the world, decided never in the future to print or circulate copies containing the Apocrypha; and this decision has been carried into effect ever since.<br><br> \nFrederic G. Kenyon (excerpt) <br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "EN-English_kjv_strongs.sqlite",
+      "size": 8790016,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_kjv_strongs.sqlite"
+    },
+    {
+      "id": "NET",
+      "name": "NET Bible®",
+      "language": "EN-English",
+      "language_short": "en",
+      "description": "<h3>NET Bible Copyright 2nd Edition (2017)</h3>\n\n<p>The NET Bible&reg; verse text (no Notes) can be used by anyone and integrated into your non-commercial project or publication upon condition of proper Biblical Studies Press copyright and organizational acknowledgments ... (<a href=\"http://netbible.com/net-bible-copyright\" rel=\"nofollow\">http://netbible.com/net-bible-copyright</a>)</p>\n\n<h4>Copyright and organizational acknowledgments:</h4>\n\n<p>NET BIble&reg; Copyright THE NET BIBLE&reg;, New English Translation (NET) Scripture quoted by permission. Quotations designated (NET) are from the NET Bible&reg; copyright &copy;1996-2016 by Biblical Studies Press, L.L.C. <a href=\"http://netbible.com\" rel=\"nofollow\">http://netbible.com</a> All rights reserved. The names: THE NET BIBLE&reg;, NEW ENGLISH TRANSLATION COPYRIGHT (c) 1996 BY BIBLICAL STUDIES PRESS, L.L.C. NET Bible&reg; IS A REGISTERED TRADEMARK THE NET BIBLE&reg; LOGO, SERVICE MARK COPYRIGHT (c) 1997 BY BIBLICAL STUDIES PRESS, L.L.C. ALL RIGHTS RESERVEDSATELLITE IMAGERY COPYRIGHT (c) R&Oslash;HR PRODUCTIONS LTD. AND CENTRE NATIONAL D&#39;&Eacute;TUDES SPATIALES PHOTOGRAPHS COPYRIGHT (c) R&Oslash;HR PRODUCTIONS LTD.</p>\n\n<h4>NET Bible First Edition to Second Edition Changes</h4>\n\n<p>Please see <a href=\"https://netbible.com/changes\">https://netbible.com/changes</a></p>\n\n<h4>Naming Convention:</h4>\n\n<ul>\n\t<li>For verses quoted, in limited space situations the three letter abbreviation is:&nbsp;<strong>NET</strong></li>\n\t<li>Alternately, the following may be used:\n\t<ul>\n\t\t<li>NET Bible&reg;</li>\n\t\t<li>NET</li>\n\t\t<li>Please avoid: New English Translation Bible or just&nbsp;New English Translation</li>\n\t</ul>\n\t</li>\n\t<li>If you quote the NET Bible in your entire work in lieu of saying&nbsp;<strong>NET</strong>&nbsp;after each scripture you may include the following acknowledgement on your acknowledgement page\n\t<ul>\n\t\t<li>&quot;&nbsp;Scripture quoted by permission. All scripture quotations, unless otherwise indicated, are&nbsp;taken from the NET Bible&reg; copyright &copy;1996-2016 by Biblical Studies Press, L.L.C.&nbsp;All rights reserved.&quot;</li>\n\t</ul>\n\t</li>\n\t<li><strong>Within copyright statements or in discussion about the NET Bible, the following is preferred: &nbsp; Scripture quoted by permission. Quotations designated (NET) are from the NET Bible&reg; copyright &copy;1996-2016 by Biblical Studies Press, L.L.C.&nbsp;</strong><a href=\"http://netbible.com/\"><strong>http://netbible.com</strong></a><strong>&nbsp;All rights reserved.&nbsp;</strong><br />\n\t&nbsp;The names: THE NET BIBLE&reg;, NEW ENGLISH TRANSLATION COPYRIGHT (c) 1996 BY BIBLICAL STUDIES PRESS, L.L.C. NET Bible&reg; IS A &nbsp;REGISTERED TRADEMARK THE NET BIBLE&reg; LOGO, SERVICE MARK COPYRIGHT (c) 1997 BY BIBLICAL STUDIES PRESS, L.L.C. ALL RIGHTS RESERVED<br />\n\tSATELLITE IMAGERY COPYRIGHT (c) R&Oslash;HR PRODUCTIONS LTD. AND CENTRE NATIONAL D&#39;&Eacute;TUDES SPATIALES PHOTOGRAPHS COPYRIGHT (c) R&Oslash;HR PRODUCTIONS LTD.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><br />\nThis Bible imported from MySword <a href=\"https://mysword.info/download-mysword/bibles\">https://mysword.info/download-mysword/bibles</a></p>\n\n<p>&nbsp;</p>\n",
+      "file": "EN-English_net.sqlite",
+      "size": 5234688,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_net.sqlite"
+    },
+    {
+      "id": "Tyndale",
+      "name": "Tyndale Bible",
+      "language": "English",
+      "language_short": "en",
+      "description": "William Tyndale's translation. Includes Genesis through Deuteronomy, Jonah, and the entire New Testament",
+      "file": "EN-English_tyndale.sqlite",
+      "size": 2224128,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_tyndale.sqlite"
+    },
+    {
+      "id": "WEB",
+      "name": "World English Bible",
+      "language": "English",
+      "language_short": "en",
+      "description": "<h3><strong>World English Bible, 2006</strong></h3>\n\n<p><strong>Digital Bible Society<br />\nPublic Domain</strong></p>\n\n<p><em>The World English Bible</em> (WEB) is a Public Domain (no copyright) Modern English translation of the Holy Bible. That means that you may freely copy it in any form, including electronic and print formats. The World English Bible is based on the American Standard Version of the Holy Bible first published in 1901, the Biblia Hebraica Stutgartensa Old Testament, and the Greek Majority Text New Testament. The companion Deuterocanon/Apocrypha is derived from the Revised Version Apocrypha and the Brenton translation of the Septuagint into English. It is in draft form, and currently being edited for accuracy and readability. The 66 books of the Old and New Testaments are essentially completed, although some proofreading comments are still being accepted when they improve accuracy, readability, and consistency.</p>\n\n<p>&nbsp;</p>\n\n<p>This Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n\n<p>&nbsp;</p>\n",
+      "file": "EN-English_web.sqlite",
+      "size": 5124096,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/EN-English_web.sqlite"
+    },
+    {
+      "id": "RVG",
+      "name": "Reina Valera Gómez",
+      "language": "Spanish",
+      "language_short": "es",
+      "description": "<b>Reina Valera Gómez</b><br />\nDERECHOS RESERVADOS<br />\nRights Reserved<br />\nCopyright 2010 By Dr. Humberto Gómez Caballero.<br />\nIglesia Bautista Libertad de Matamoros Tam. México.<br />\nP.O. Box 868<br />\nBrownsville, Tx 78522<br />\nEstados Unidos de América.<br />\nE Mail humbertogoca@prodigy.net.mx<br />\nPh. (956)867-1281 Ph, en Mexico 011-52-8688-140352<br /><br /><br />\n\nTotalmente prohibido imprimirlo, o reproducirlo con fines de lucro. Los derechos reservados no están de venta y son sólo para ampararnos de cualquier organización, o persona que quisiera adueñarse de ella.<br />\nToda Iglesia u organización que desee imprimirla o reproducirla para su distribución gratuita tendrá la plena libertad de hacerlo sin necesidad de pagar regalías, siempre y cuando no cambie ninguna de las palabras escritas.<br />\nCompletly prohibited to print, or reproduce the text for the purpose of profit. The rights reserved are not for sale, and are only to protect us against any organization, or person that wants to take possession of the text.<br />\nAll Churches or organizations that want to print or reproduce it for free distribution have the clear liberty to do so without need to pay royalties, always and when they do not change any of the written words.<br />",
+      "file": "ES-Spanish_rvg.sqlite",
+      "size": 5083136,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_rvg.sqlite"
+    },
+    {
+      "id": "RVG 2004",
+      "name": "Reina Valera Gómez (2004)",
+      "language": "Spanish",
+      "language_short": "es",
+      "description": "<b>Reina Valera Gómez</b><br />\nDERECHOS RESERVADOS<br />\nRights Reserved<br />\nCopyright 2004 By Dr. Humberto Gómez Caballero.<br />\nIglesia Bautista Libertad de Matamoros Tam. México.<br />\nP.O. Box 868<br />\nBrownsville, Tx 78522<br />\nEstados Unidos de América.<br />\nE Mail humbertogoca@prodigy.net.mx<br />\nPh. (956)867-1281 Ph, en Mexico 011-52-8688-140352<br /><br /><br />\n\nTotalmente prohibido imprimirlo, o reproducirlo con fines de lucro. Los derechos reservados no están de venta y son sólo para ampararnos de cualquier organización, o persona que quisiera adueñarse de ella.<br />\nToda Iglesia u organización que desee imprimirla o reproducirla para su distribución gratuita tendrá la plena libertad de hacerlo sin necesidad de pagar regalías, siempre y cuando no cambie ninguna de las palabras escritas.<br />\nCompletly prohibited to print, or reproduce the text for the purpose of profit. The rights reserved are not for sale, and are only to protect us against any organization, or person that wants to take possession of the text.<br />\nAll Churches or organizations that want to print or reproduce it for free distribution have the clear liberty to do so without need to pay royalties, always and when they do not change any of the written words.<br />",
+      "file": "ES-Spanish_rvg_2004.sqlite",
+      "size": 5042176,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_rvg_2004.sqlite"
+    },
+    {
+      "id": "RV 1858",
+      "name": "Reina Valera 1858 NT",
+      "language": "Spanish",
+      "language_short": "es",
+      "description": "<b>Spanish: Reina Valera NT (1858)</b><p />EL NUEVO TESTAMENTO DE NUESTRO SEÑOR JESU-CRISTO (1858)<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "ES-Spanish_rv_1858.sqlite",
+      "size": 1224704,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_rv_1858.sqlite"
+    },
+    {
+      "id": "RV 1909",
+      "name": "Reina Valera 1909",
+      "language": "Spanish",
+      "language_short": "es",
+      "description": "<b>Spanish: Reina Valera (1909)</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "ES-Spanish_rv_1909.sqlite",
+      "size": 5021696,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_rv_1909.sqlite"
+    },
+    {
+      "id": "RV1909 S",
+      "name": "Reina-Valera 1909 w/Strong's",
+      "language": "Unknown",
+      "language_short": "es",
+      "description": "\r\n<h2 align=\"center\"><b>Biblia Reina-Valera 1909<br>con números de Strong</b></h2>\r\n<p align=\"center\"><b>2017 Edition</b></p>\r\n\r\n<p align=\"center\">La Santa Biblia<br>\r\nAntiguo y Nuevo Testamento</p>\r\n<p align=\"center\">\r\nAntigua versión de Casiodoro de Reina (1569), revisada por Cipriano de Valera (1602)<br>\r\ny cotejada posteriormente con diversas traducciones, y con los textos hebreo y griego.</p>\r\n<p align=\"center\">\r\nSociedad Bíblica Americana<br>\r\nSociedad Bíblica Británica y Extranjera</p>\r\n<p align=\"center\">\r\nThe text of Reina-Valera 1909 is in the public domain.<br> \r\nStrong's numbers tagging developed by Rubén Gómez.</p>\r\n<p align=\"center\">\r\nPeriodic updates will be made to the Strong's numbers tagging. Please report any typos to the editor: rubeng@infotelecom.es</p><br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "ES-Spanish_rv_1909_strongs.sqlite",
+      "size": 7917568,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_rv_1909_strongs.sqlite"
+    },
+    {
+      "id": "Sagradas",
+      "name": "Sagradas Escrituras",
+      "language": "Spanish",
+      "language_short": "es",
+      "description": "<b>Spanish: Sagradas Escrituras (1569)</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "ES-Spanish_sagradas.sqlite",
+      "size": 5169152,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ES-Spanish_sagradas.sqlite"
+    },
+    {
+      "id": "OPT",
+      "name": "Old Persian Translation",
+      "language": "Unknown",
+      "language_short": "fa",
+      "description": "\n<h2>Old Persian Translation</h2>\n<hr>\n<p>The New Testament is a revision of the second edition translated by Missionary Henry Martyn in 1837. Robert Bruce then revised Martyn's New Testament and translated the entire Old Testament. The translation is generally a literal translation, and the New Testament is in the main based on the Received Text, however some places are affected by the Eclectic Greek Texts. We have corrected the verse numbering problems in this edition, so that it follows the standard verse numbering. This Bibe text is still under review and correction.</p><br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "FA-Persian_opt.sqlite",
+      "size": 7774208,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FA-Persian_opt.sqlite"
+    },
+    {
+      "id": "Finnish",
+      "name": "Finnish 1776 (Finnish)",
+      "language": "Finnish",
+      "language_short": "fi",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Finnish: Bible (1776)</b><p />Biblia, Se on: Koko Pyhä Raamattu, Suomeksi.<br />\nVuoden 1776 kirkkoraamattu.\n<p />\nFinnish Bible published in 1776.\n<p />\nIn public domain.\n<p />\nSWORD version by Tero Favorin (tero at favorin dot com)</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "FI-Finnish_finn.sqlite",
+      "size": 5394432,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FI-Finnish_finn.sqlite"
+    },
+    {
+      "id": "Epee",
+      "name": "La Bible de l'Épée",
+      "language": "French",
+      "language_short": "fr",
+      "description": "LA BIBLE DE L'Ã‰PÃ‰E Ã©dition TULIPE, 2005<br><p /><br>Refonte de la Bible de Jean Calvin, 1540, d'aprÃ¨s une rÃ©vision du texte de la Bible Ostervald et de celui de la Bible Martin, ajustÃ©e sur la King-James<br>et prÃ©cisÃ©e sur les Textes Originaux:<br><p /><br>a) le Texte MassorÃ©tique HÃ©breu pour l'Ancien Testament<br /><br>b) le Texte ReÃ§u Grec pour le Nouveau Testament<br><p /><br><br>This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "FR-French_epee.sqlite",
+      "size": 5447680,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FR-French_epee.sqlite"
+    },
+    {
+      "id": "Martin",
+      "name": "Martin",
+      "language": "French",
+      "language_short": "fr",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>French: Martin (1744)</b><p />La Bible David Martin, 1744\n<p />\nDownloaded from <a href=\"http://desmond.oshea.free.fr/BibleMartin/Bible%20Martin%201744/Bible%20Martin%201744.html\" target=\"_blank\">http://desmond.oshea.free.fr/BibleMartin/Bible%20Martin%201744/Bible%20Martin%201744.html</a></body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "FR-French_martin.sqlite",
+      "size": 5668864,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FR-French_martin.sqlite"
+    },
+    {
+      "id": "Ostervald",
+      "name": "Ostervald",
+      "language": "French",
+      "language_short": "fr",
+      "description": "<p><strong>French: Ostervald (1996 revision)</strong></p>\n\n<p><strong>PR&Eacute;FACE DE L&#39;&Eacute;DITION DE 1996 DE LA TRADUCTION DE LA BIBLE REVUE PAR J. F. OSTERVALD</strong><br />\n<br />\nA travers des si&egrave;cles, depuis 1535 (date de la publication de la Bible d&#39;Oliv&eacute;tan), la francophonie poss&eacute;dait une Bible fid&egrave;le. Cette Bible traditionnelle est la repr&eacute;sentation juste de ce que nos fr&egrave;res ont utilis&eacute; &agrave; travers les &acirc;ges. Elle est issue du Texte Re&ccedil;u, qui est la pr&eacute;servation fid&egrave;le des textes originaux et conforme &agrave; l&#39;immense majorit&eacute; des manuscrits qui existent. Il faut rappeler qu&#39;&agrave; sa publication en 1535, la Bible 0liv&eacute;tan a &eacute;t&eacute; la Bible des Vaudois (chr&eacute;tiens &eacute;vang&eacute;liques des Alpes), ainsi que des r&eacute;formateurs Calvin, Farel et Th&eacute;odore de B&egrave;ze. Elle a eu pour fruit des conversions en grand nombre, ainsi qu&#39;un esprit de sacrifice et de r&eacute;veil. En 1560 elle est appel&eacute;e Bible de Gen&egrave;ve. Jusqu&#39;au d&eacute;but du 20&egrave;me si&egrave;cle, elle se perp&eacute;tue par les r&eacute;visions d&#39;Ostervald. Pendant tout ce temps rien n&#39;a &eacute;t&eacute; enlev&eacute; &agrave; la Bible. Il convient donc de pr&eacute;f&eacute;rer la Bible traditionnelle car elle est l&#39;h&eacute;riti&egrave;re des textes utilis&eacute;s par Dieu au fil des si&egrave;cles, ceux qui sont les v&eacute;hicules de sa b&eacute;n&eacute;diction dans les plus grands r&eacute;veils de la foi.<br />\n<br />\nCet ouvrage est une mise &agrave; jour de l&#39;&eacute;dition de 1886 d&#39;une r&eacute;vision de la Bible d&#39;Ostervald publi&eacute;e pour la premi&egrave;re fois en 1881, dont nous reproduisons ci-dessous la pr&eacute;face:<br />\n<br />\n<span style=\"color:#330066\"><strong>PR&Eacute;FACE DE LA PREMIERE &Eacute;DITION LA SOCI&Eacute;T&Eacute; BIBLIQUE DE FRANCE</strong></span></p>\n\n<p><span style=\"color:#330066\"><strong>&quot; Aux Pasteurs, Anciens et Membres des &Eacute;glises protestantes fran&ccedil;aises &quot;.</strong><br />\nParis, juillet 1881<br />\n<br />\nNous poss&eacute;dons, dans la traduction de la Bible, revue par J. F. Ostervald, une version dont les origines se confondent avec celles m&ecirc;mes de la R&eacute;formation, et l&#39;histoire avec celles de nos &eacute;glises fran&ccedil;aises. Sa langue a &eacute;t&eacute; jusqu&#39;&agrave; ce jour celle de tous nos sermonnaires, th&eacute;ologiens, controversistes et cat&eacute;chistes. Ses citations remplissent depuis trois si&egrave;cles tous les ouvrages protestants Plusieurs fois revue et corrig&eacute;e, d&#39;Oliv&eacute;tan &agrave; Ostervald, elle s&#39;est acquis sous ce dernier nom une faveur sans &eacute;gale, a pris sa place dans tous nos temples, &agrave; tous nos foyers, dans toutes les m&eacute;moires, et n&#39;a cess&eacute; d&egrave;s lors d&#39;&ecirc;tre &agrave; la fois la plus offerte et la plus demand&eacute;e, m&ecirc;me &agrave; cette heure et depuis la diffusion des traductions nouvelles &agrave; bas prix. C&#39;est en fait, notre v&eacute;ritable et seule version eccl&eacute;siastique et populaire.<br />\n<br />\nIl nous a sembl&eacute;, apr&egrave;s beaucoup d&#39;autres, qu&#39;il y avait l&agrave;, dans ce pass&eacute; consid&eacute;rable, dans ces longs et pieux services, dans ce ferme attachement des fid&egrave;les, non seulement des titres imposants, mais une puissance dont il serait aussi injuste qu&#39;imprudent de ne pas tenir compte. Il nous a sembl&eacute; qu&#39;une version aussi profond&eacute;ment entr&eacute;e dans nos moeurs et dans notre confiance, pr&eacute;sentait un terrain solide pour des progr&egrave;s imm&eacute;diats et facile-ment acceptables par tous.<br />\n<br />\nNotre but a donc &eacute;t&eacute; simplement de renouer le fil trop longtemps rompu des R&eacute;visions successives qui ont mis, si&egrave;cle apr&egrave;s si&egrave;cle, cette antique version en &eacute;tat de suffire &agrave; sa t&acirc;che, et faute desquelles elle nous appara&icirc;t maintenant, &ccedil;a et l&agrave;, vieillie, incorrecte et parfois &agrave; peine intelligible. Nous nous sommes propos&eacute;, d&#39;apr&egrave;s la m&eacute;thode qui a toujours pr&eacute;valu chez nos p&egrave;res et que l&#39;Angleterre, I&#39;Am&eacute;rique et l&#39;Allemagne appliquent &eacute;galement &agrave; leurs propres versions, de la maintenir au niveau des progr&egrave;s de la science et des modifications du langage. Heureux si nous pouvons par l&agrave; conserver &agrave; nos &eacute;glises le pr&eacute;cieux avantage d&#39;une version qui, au-dessus ou &agrave; c&ocirc;t&eacute; des pr&eacute;f&eacute;rences individuelles, toujours respectables, soit et demeure la Bible de la grande famille &eacute;vang&eacute;lique fran&ccedil;aise; en qui l&#39;&Eacute;glise se reconnaisse en quelque sorte elle-m&ecirc;me; qu&#39;elle retrouve dans toutes ses chaires; &agrave; laquelle elle renvoie avec s&eacute;curit&eacute; l&#39;incroyant, le pros&eacute;lyte, le faible dans la foi; version mesur&eacute;e et s&ucirc;re; expression, non de la science qui se fait, mais, autant que possible, de la science faite, dans ses r&eacute;sultats av&eacute;r&eacute;s; non des probabilit&eacute;s savantes de demain, mais des certitudes &eacute;prouv&eacute;es d&#39;aujourd&#39;hui; version qui sauvegarde enfin, dans la patrie religieuse, la communaut&eacute; d&#39;une m&ecirc;me langue pour une m&ecirc;me foi.<br />\n<br />\nC&#39;est dans cette pens&eacute;e que nous nous sommes mis &agrave; l&#39;ouvrage.<br />\n<br />\nLa R&eacute;vision que nous offrons enfin compl&egrave;te au public, est due &agrave; une double initiative.<br />\n<br />\nLe Nouveau Testament (1), d&eacute;j&agrave; favorablement connu depuis une dizaine d&#39;ann&eacute;es, est l&#39;&oelig;uvre particuli&egrave;re de M. Ie pasteur Ch. L. Frossard.<br />\n<br />\nL&#39;Ancien Testament, entrepris sous les auspices de notre Soci&eacute;t&eacute;, est l&#39;&oelig;uvre collective de th&eacute;ologiens et de pasteurs, la plupart d&eacute;sign&eacute;s d&#39;avance, par leur notori&eacute;t&eacute; sp&eacute;ciale, pour une semblable t&acirc;che. Ce sont MM. Ch. Bois, professeur de th&eacute;ologie; P. Bornand, pasteur; Ch. Bruston, professeur de th&eacute;ologie; Ch. Byse, pasteur; P. Chapuis, D. Coussirat, professeurs de th&eacute;ologie; L. Favez, Ch. L. Frossard, feu H. Kruger, Ch. Lauter, E. Le Savoureux, E. Monnier, W. Monod, pasteurs.<br />\n<br />\nNous livrons aujourd&#39;hui ces travaux &agrave; l&#39;impartiale appr&eacute;ciation de nos fr&egrave;res. Nous attendons de leur part d&#39;utiles observations, et nous saurons en tirer profit.&mdash; ne souhaitant d&#39;ailleurs qu&#39;une chose : c&#39;est que par la faveur de Dieu, cette &oelig;uvre contribue en quelque mesure &agrave; maintenir toujours plus pure et bienfaisante, sur le chandelier de notre &Eacute;glise, la lumi&egrave;re divine qui doit &eacute;clairer la maison tout enti&egrave;re.</span></p>\n\n<p><span style=\"color:#330066\">LE COMIT&Eacute;.</span></p>\n\n<p><br />\n<br />\nNotre but dans cette &eacute;dition n&#39;est pas diff&eacute;rent de celui des pasteurs et professeurs qui nous ont pr&eacute;c&eacute;d&eacute;s. Leur souci reste le n&ocirc;tre : qu&#39;une Bible fid&egrave;le soit dans les mains de nos fid&egrave;les pour apprendre de Celui qui est toujours fid&egrave;le.<br />\n<br />\nEn ce qui concerne les modifications apport&eacute;es, nous avons &eacute;limin&eacute; les chiffres romains et chang&eacute; la formule du texte &agrave; celle du d&eacute;coupage en versets. Les notes et renvois de la Bible de 1886 sont rassembl&eacute;s &agrave; la fin dans une liste selon la r&eacute;f&eacute;rence biblique, les renvois &eacute;tant not&eacute;s par un ast&eacute;risque dans le texte. Quelques transformations orthographiques ou grammaticales ont &eacute;t&eacute; effectu&eacute;es, et quelques mots d&eacute;suets ont &eacute;t&eacute; am&eacute;lior&eacute;s pour une meilleure compr&eacute;hension. Ces modifications ne sont pas not&eacute;es par des renvois. D&#39;autre part, quelques alt&eacute;rations ont &eacute;t&eacute; port&eacute;es au texte de 1886 pour raison de fid&eacute;lit&eacute; au Texte Re&ccedil;u. Ces modifications sont not&eacute;es par des renvois o&ugrave; figurent les mots exacts de la r&eacute;vision de 1886. Une autre transformation est &agrave; noter : le mot antichrist remplace antechrist de la r&eacute;vision de 1886. Antichrist est la traduction fid&egrave;le du mot grec antichristos, qui signifie contre le ou l&#39;opposant du Christ.<br />\n<br />\nNous ne pouvons que r&eacute;p&eacute;ter ce que nos pr&eacute;d&eacute;cesseurs ont souhait&eacute; il y a maintenant plus d&#39;un si&egrave;cle. Nous aussi, nous voulons que par la faveur de Dieu, cette &oelig;uvre contribue en quelque mesure &agrave; maintenir toujours plus pure et bienfaisante, sur le chandelier de nos &Eacute;glises, &quot;la lumi&egrave;re divine qui doit &eacute;clairer la maison tout enti&egrave;re.&quot;<br />\n<br />\nAMEN !<br />\n<br />\n(1) D&#39;apr&egrave;s l&#39;&eacute;dition gr. in-8&deg;, 1880, c&#39;est-&agrave;-dire avec les derni&egrave;res corrections de l&#39;auteur.</p>\n\n<p>Downloaded from <a href=\"http://ichthus.pompignane.free.fr/NewFiles/biboster.html\" target=\"_blank\">http://ichthus.pompignane.free.fr/NewFiles/biboster.html</a></p>\n\n<p>&nbsp;\n<p><br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n</p>\n",
+      "file": "FR-French_oster.sqlite",
+      "size": 5423104,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FR-French_oster.sqlite"
+    },
+    {
+      "id": "Segond 1910",
+      "name": "Louis Segond 1910",
+      "language": "Unknown",
+      "language_short": "fr",
+      "description": "<p>Version Louis Segond 1910 (LSG)</p>\n\n<p>Texte libre de droits</p>\n\n<p>&nbsp;</p>\n\n<p>Strongs (c) Timnathserah, Inc - Canada &amp; Editions CLE - Villeurbanne - France<br />\n<br />\nThis Bible imported from MySword <a href=\"https://mysword.info/download-mysword/bibles\">https://mysword.info/download-mysword/bibles</a></p>\n",
+      "file": "FR-French_segond_1910.sqlite",
+      "size": 5337088,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/FR-French_segond_1910.sqlite"
+    },
+    {
+      "id": "TR",
+      "name": "Textus Receptus NT",
+      "language": "Greek",
+      "language_short": "grc",
+      "description": "<b>Greek NT: Textus Receptus (1550/1894)</b><p />The Textus Receptus; base text is Stephens 1550, with variants of Scrivener 1894.<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "GRC-Greek_tr.sqlite",
+      "size": 1847296,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/GRC-Greek_tr.sqlite"
+    },
+    {
+      "id": "TR Parsed",
+      "name": "Textus Receptus Parsed NT",
+      "language": "Greek",
+      "language_short": "grc",
+      "description": "<b>Greek NT: Textus Receptus (1550/1894) [Parsed]</b><p />The Textus Receptus with complete parsing information for all Greek words; base text is Stephens 1550, with variants of Scrivener 1894.<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "GRC-Greek_trparsed.sqlite",
+      "size": 3944448,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/GRC-Greek_trparsed.sqlite"
+    },
+    {
+      "id": "ગુજરાતી IRV",
+      "name": "ઇન્ડિયન રીવાઇઝ્ડ વર્ઝન (IRV) ગુજરાતી",
+      "language": "GU-Gujarati",
+      "language_short": "gu",
+      "description": "<h2>ઇન્ડિયન રીવાઇઝ્ડ વર્ઝન ગુજરાતી - 2019</h2><h2>The Indian Revised Version Holy Bible in the Gujarati language of India</h2><p>copyright © 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/guj\">ગુજરાતી (Gujarati)</a><br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "GU-Gujarati_gu_irv.sqlite",
+      "size": 11165696,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/GU-Gujarati_gu_irv.sqlite"
+    },
+    {
+      "id": "Buɗaɗɗen Littafi Mai Tsarki",
+      "name": "Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™",
+      "language": "HA-Hausa",
+      "language_short": "ha",
+      "description": "<h2>Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™</h2><h2>Hausa: Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™ (Bible) of Nigeria</h2><p>copyright © 2020 <a href=\"http://www.Biblica.com\">Biblica, Inc.</a><br>Language: <a href=\"http://www.ethnologue.org/language/hau\">Hausa</a><br>Contributor: Biblica, Inc.<br><br>&nbsp;</p><p><i>Biblica® Open Yoruba Contemporary Bible™</i></p><p><i>Copyright © 2009, 2017 by Biblica, Inc.</i></p><p>Used with permission. All rights reserved worldwide.</p><p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc.&nbsp;Used with permission.</p><p>All content on open.bible is made available under a Creative Commons Attribution-ShareAlike 4.0 License (http://creativecommons.org/licenses/by-sa/4.0/).</p><p>&nbsp;You are free to:</p><ul><li>Share — copy and redistribute the material in any medium or format</li><li>Adapt — remix, transform, and build upon the material for any purpose, even commercially</li></ul><p>&nbsp;Under the following conditions:</p><ul><li>Attribution — You must attribute the work as follows: “Original work available for free at www.biblica.com and open.bible” Attribution statements in derivative works should not in any way suggest that we endorse you or your use of this work.</li><li>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</li></ul><p>Use of trademarks: Biblica® is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. and may not be included on any derivative works. Unaltered content from open.bible must include the Biblica® trademark when distributed to others. If you alter the content in any way, you must remove the Biblica® trademark before distributing your work.</p><p>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "HA-Hausa_ha_con.sqlite",
+      "size": 5074944,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HA-Hausa_ha_con.sqlite"
+    },
+    {
+      "id": "Litafi Mai-tsarki",
+      "name": "Litafi Mai-tsarki",
+      "language": "HA-Hausa",
+      "language_short": "ha",
+      "description": "<h2>Litafi Mai-tsarki</h2><h2>The New Testament in the Hausa language of Nigeria</h2><p>copyright © 2020 <a href=\"https://door43.org/\">Door43 World Missions Community</a><br>Language: <a href=\"http://www.ethnologue.org/language/hau\">Hausa</a><br>Translation by: Alakirawa, Bayan, Chrispher Ishaya, Dabere, Dacuhus Timothy Danjuma, Danjay, Danjuma Alfred H, Euang Hediza Naohammed, Franklyn Ukazu Udochukwu, Gideon, Gokop, Habibu, James, Kiash Dachung Butus, Lazarus, Nadaki M. Philip, Nenching, Paul, Rebecca, Rev. Ayuba Taiba, Rev. Cain Yusuf Daniel, Rev. Dalhatu Dambo Ayuba, Rev. Dr. Tambanya Yahaya, Rev. Dr. Yakubu Hassan, Rev. Hannatu Samuel Ndberhukwu, Rev. Ibrahim Kassim, Rev. M. Dan'Amarya, Rev. Yakuba Ayuba<br>Contributor: Dacuhus Timothy Danjuma, Euang Hediza Naohammed, Kiash Dachung Butus, Nadaki M. Philip, Rev. Ayuba Taiba, Rev. Cain Yusuf Daniel, Rev. Dalhatu Dambo Ayuba, Rev. Dr. Tambanya Yahaya, Rev. Dr. Yakubu Hassan, Rev. Hannatu Samuel Ndberhukwu, Rev. Ibrahim Kassim, Rev. M. Dan'Amarya, Rev. Yakuba Ayuba<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "HA-Hausa_ha_lit.sqlite",
+      "size": 1216512,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HA-Hausa_ha_lit.sqlite"
+    },
+    {
+      "id": "תנ ך עברי מודרני",
+      "name": "תנ ך עברי מודרני",
+      "language": "HE-Hebrew",
+      "language_short": "he",
+      "description": "<h2>תנ ך עברי מודרני</h2><h2>The Holy Bible in Modern Hebrew</h2><p><a href=\"http://en.wikipedia.org/wiki/Public_domain\">Public Domain</a><br>Language: <a href=\"http://www.ethnologue.org/language/heb\">עברית (Hebrew)</a><br>Translation by: Franz Delitzsch (1813–1890)</p>",
+      "file": "HE-Hebrew_he_modern.sqlite",
+      "size": 4820992,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HE-Hebrew_he_modern.sqlite"
+    },
+    {
+      "id": "rm",
+      "name": "WLC",
+      "language": "Hebrew",
+      "language_short": "he",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Hebrew OT: WLC (Consonants & Vowels)</b><p />This text began as an electronic transcription by Whitaker and Parunak of the 1983 printed edition of Biblia Hebraica Stuttgartensia (BHS). The transcription is called the Michigan-Claremont electronic text and was archived at the Oxford Text Archive (OTA) in 1987. Since that time, the text has been modified to conform to the photo-facsimile of the Leningrad Codex, Firkovich B19A, residing at the Russian National Library, St. Petersberg; hence the change of name. This version contains all 6 of the textual elements of the OTA document: consonants, vowels, cantillation marks, \"paragraph\" (pe, samekh) markers, and ketib-qere variants. Morphological divisions may be added later.\n<p />\nThe BHS so-called \"paragraph\" markers (pe and samekh) do not actually occur in the Leningrad Codex. The editors of BHS use them to indicate open space deliberately left blank by the scribe. Pe (\"open\" paragraph) represents a space between verses, where the new verse begins on a new column line. This represents a major section of the text. Samekh (\"closed\" paragraph) represents a space of less than a line between verses. This is understood to be a subdivision of the corresponding \"open\" section. Since these markers represent an actual physical feature of the text, they have been retained. \n<p />\nThe transcription was based on the \"Supplement to the code manual for the Michigan Old Testament\" by Alan Groves. \n<p />\nThe WLC is maintained by the Westminster Hebrew Institute, Philadelphia, PA (<a href='http://whi.wts.edu/WHI' target='_blank'>http://whi.wts.edu/WHI</a>) \n<p />\nSword module maintained by Martin Gruner (mg dot pub at gmx dot net).</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "HE-Hebrew_wlc.sqlite",
+      "size": 5795840,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HE-Hebrew_wlc.sqlite"
+    },
+    {
+      "id": "हिंदी IRV",
+      "name": "इंडियन रिवाइज्ड वर्जन (IRV) ",
+      "language": "Hindi",
+      "language_short": "hi",
+      "description": "<!DOCTYPE html>\n<html lang=\"hi\">\n<head>\n<meta charset=\"UTF-8\" />\n<link rel=\"stylesheet\" href=\"freeserif.css\" type=\"text/css\" />\n<meta name=\"viewport\" content=\"user-scalable=yes, initial-scale=1, minimum-scale=1, width=device-width\"/>\n<title>इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019  </title>\n<meta name=\"keywords\" content=\"इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019, hin, Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel\" />\n</head>\n<body>\n<ul class='tnav'>\r\n<li><a href='index.htm'>^</a></li>\r\n<li><a href='GEN01.htm'>&lt;</a></li>\r\n<li><a href='GEN01.htm'>&gt;</a></li>\r\n</ul>\n<div class=\"main\">\n<div class=\"main\">\n<div class=\"toc\"><a href=\"https://ebible.org/hin2017\">इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019</a></div></br>\n<h1 class='freeserif'>इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019</h1>\n<h2>The Indian Revised Version Holy Bible in the Hindi language of India</h2>\n<p>copyright © 2017, 2018, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br />\nLanguage: <a href='http://www.ethnologue.org/language/hin' class='freeserif' target='_blank'>मानक हिन्दी‎ (Hindi)</a><br />\nTranslation by: Bridge Connectivity Solutions<br />\nContributor: Bridge Connectivity Solutions Pvt. Ltd.<br />\n</p>\n<p>This translation is made available to you under the terms of the\r\n<a href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution Share-Alike license 4.0.</a></p>\r\n<p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p>\r\n<ul>\r\n<li>You include the above copyright and source information.</li>\r\n<li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li>\r\n<li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li>\r\n</ul>\r\n<p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents.\r\nFor other uses, please contact the respective copyright owners.</p>\r\n<p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>\r\n<p><br/>2023-04-11</p>\n\n<div class=\"fine\">HTML generated with <a href='https://haiola.org'>Haiola</a> by <a href='https://eBible.org'>eBible.org</a> 21 Feb 2024 from source files dated 11 Apr 2023</a><br/><br /><a href='https://eBible.org/certified/' target='_blank'><img src='eBible.org_certified.jpg' alt='eBible.org certified' /></a></div>\n<ul class='tnav'>\r\n<li><a href='index.htm'>^</a></li>\r\n<li><a href='GEN01.htm'>&lt;</a></li>\r\n<li><a href='GEN01.htm'>&gt;</a></li>\r\n</ul>\n<div class=\"footnote\">\n<hr />\n</div>\n<div class=\"copyright\">\n\n<p align=\"center\"><a href='copyright.htm'>© 2017, 2018, 2019 BCS</a></p>\n</div>\n</div></body></html>\n",
+      "file": "HI-Hindi_irv.sqlite",
+      "size": 11022336,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HI-Hindi_irv.sqlite"
+    },
+    {
+      "id": "HCV",
+      "name": "Haitian Creole Version ",
+      "language": "HT-Haitian,_Haitian_Creole",
+      "language_short": "ht",
+      "description": "\r\n<h2>Haitian Creole Version </h2><br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "HT-Haitian,_Haitian_Creole_hcv.sqlite",
+      "size": 5464064,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HT-Haitian,_Haitian_Creole_hcv.sqlite"
+    },
+    {
+      "id": "Karoli",
+      "name": "Karoli",
+      "language": "Hungarian",
+      "language_short": "hu",
+      "description": "<b>Hungarian: Karoli</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "HU-Hungarian_karoli.sqlite",
+      "size": 5287936,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/HU-Hungarian_karoli.sqlite"
+    },
+    {
+      "id": "Indonesian TB",
+      "name": "Terjemahan Baru",
+      "language": "Indonesian",
+      "language_short": "id",
+      "description": "<p>Copyright Lembaga Alkitab Indonesia (Indonesian Bible Society), 1994.</p>\n\n<p>Released for non-profit scholarly and personal use.</p>\n\n<p>Not to be sold for profit.</p>\n\n<p>When making formal public reference to the materials, please acknowlege The Indonesian Bible Society (Lembaga Alkitab Indonesia) as the copyright holder.<br />\n<br />\nThis Bible imported from Bible Analyzer <a href=\"http://www.bibleanalyzer.com/download.htm\">http://www.bibleanalyzer.com/download.htm</a></p>\n",
+      "file": "ID-Indonesian_indo_tb.sqlite",
+      "size": 5832704,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ID-Indonesian_indo_tb.sqlite"
+    },
+    {
+      "id": "Indonesian TM",
+      "name": "Terjemahan Lama",
+      "language": "Indonesian",
+      "language_short": "id",
+      "description": "<p>Indonesian Terjemahan Lama<br />\n<br />\nThis Bible imported from Bible Analyzer <a href=\"http://www.bibleanalyzer.com/download.htm\">http://www.bibleanalyzer.com/download.htm</a></p>\n",
+      "file": "ID-Indonesian_indo_tm.sqlite",
+      "size": 6316032,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ID-Indonesian_indo_tm.sqlite"
+    },
+    {
+      "id": "Diodati",
+      "name": "Diodati",
+      "language": "Italian",
+      "language_short": "it",
+      "description": "<b>Italian: Giovanni Diodati Bible (1649)</b><p />1649 Italian Giovanni Diodati Bibbia<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "IT-Italian_diodati.sqlite",
+      "size": 5451776,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/IT-Italian_diodati.sqlite"
+    },
+    {
+      "id": "Bungo",
+      "name": "Bungo-yaku: Taisho-kaiyaku (NT) (1950), Meiji-yaku (OT) (1953)",
+      "language": "Unknown",
+      "language_short": "ja",
+      "description": "Classical Japanese Bible, Public Domain.<p>Combination of Classical Japanese Bible, the New Testament published in 1917 (so called Taisho-Kaiyaku) and the Old Testament published in 1887 (Meiji-Yaku). This text is based on those printed in 1950(NT) and 1953(OT).</p><br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "JA-Japanese_bungo.sqlite",
+      "size": 5378048,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/JA-Japanese_bungo.sqlite"
+    },
+    {
+      "id": "Kougo",
+      "name": "Kougo-yaku",
+      "language": "Unknown",
+      "language_short": "ja",
+      "description": "Colloquial Japanese Bible (so called Kougo-yaku), Public Domain.<p>Those texts are based on the Colloquial Japanese Bible Published in 1954/1955 ( whose copyright is expired at 1 Jan 2006 ). Note that the texts currently available from the publisher are slightly different from those published in 1954/1955 , and their copyrights may be still active.</p><p>The most commonly used bible by the protestants in japan till the publishing of the New Interconffessional Translation (Shin-Kyoudou-yaku) in 1987.</p><br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "JA-Japanese_kougo.sqlite",
+      "size": 6496256,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/JA-Japanese_kougo.sqlite"
+    },
+    {
+      "id": "Prajanjian Anyar ing Basa Jawa",
+      "name": "Kitab sutyi prejanjian anyar ing Basa Jawa Suriname sing gampang",
+      "language": "JV-Javanese",
+      "language_short": "jv",
+      "description": "<h2>Kitab sutyi prejanjian anyar ing Basa Jawa Suriname sing gampang</h2><h2>New Testament in Javanese, Caribbean (NS:jvn:Javanese, Caribbean)</h2><p>copyright © 2009 <a href=\"http://www.wycliffe.org\">Wycliffe Bible Translators, Inc.</a><br>Language: <a href=\"http://www.ethnologue.org/language/jvn\">Javanese, Caribbean</a><br>Translation by: Wycliffe Bible Translators, Inc.<br><br>&nbsp;</p><p>Javanese, Caribbean<br>jvn<br>Suriname</p><h2>Copyright Information</h2><p>© 2009, Wycliffe Bible Translators, Inc. All rights reserved.</p><p>This translation text is made available to you under the terms of the Creative Commons License: Attribution-Noncommercial-No Derivative Works. (http://creativecommons.org/licenses/by-nc-nd/3.0/) In addition, you have permission to port the text to different file formats, as long as you do not change any of the text or punctuation of the Bible.</p><p>You may share, copy, distribute, transmit, and extract portions or quotations from this work, provided that you include the above copyright information:</p><ul><li>You must give Attribution to the work.</li><li>You do not sell this work for a profit.</li><li>You do not make any derivative works that change any of the actual words or punctuation of the Scriptures.</li></ul><p>Permissions beyond the scope of this license may be available if you contact us with your request.</p><p><strong>The New Testament</strong>&nbsp;<br>in Javanese, Caribbean</p><p><br>© 2009, Wycliffe Bible Translators, Inc. All rights reserved.</p><p>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "JV-Javanese_jv_jvn.sqlite",
+      "size": 1724416,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/JV-Javanese_jv_jvn.sqlite"
+    },
+    {
+      "id": "KJV",
+      "name": "King James Version",
+      "language": "en",
+      "language_short": "EN",
+      "description": "Public Domain",
+      "file": "King_James_Version.sqlite",
+      "size": 5246976,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/King_James_Version.sqlite"
+    },
+    {
+      "id": "ಕನ್ನಡ IRV",
+      "name": "ಇಂಡಿಯನ್ ರಿವೈಜ್ಡ್ ವರ್ಸನ್ (IRV) - ಕನ್ನಡ",
+      "language": "KN-Kannada",
+      "language_short": "kn",
+      "description": "<h2>ಇಂಡಿಯನ್ ರಿವೈಜ್ಡ್ ವರ್ಸನ್ (IRV) - ಕನ್ನಡ - 2019</h2><h2>The Indian Revised Version Holy Bible in the Kannada language of India</h2><p>copyright © 2017, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/kan\">ಕನ್ನಡ (Kannada)</a><br>Translation by: Bridge Connectivity Solutions<br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "KN-Kannada_kn_irv.sqlite",
+      "size": 12156928,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/KN-Kannada_kn_irv.sqlite"
+    },
+    {
+      "id": "Kannada KJV",
+      "name": "Kannada KJV",
+      "language": "KN-Kannada",
+      "language_short": "kn",
+      "description": "<p>Translated by Kannada KJV Bible Society. Digitized and Created as Module by Yesudas Solomon, founder and president of Word of God Team and Word of God Ministries. Contact us at wordofgod@wordofgod.in, +91 7676505599, +91 9448016738, +91 9964422489. Visit our sites <a href=\"http://www.WordOfGod.in\">www.WordOfGod.in</a> for more free resources.<br><br>This Bible imported from MySword <a href=\"https://mysword.info/download-mysword/bibles\">https://mysword.info/download-mysword/bibles</a></p>",
+      "file": "KN-Kannada_kn_kjv.sqlite",
+      "size": 11919360,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/KN-Kannada_kn_kjv.sqlite"
+    },
+    {
+      "id": "Korean",
+      "name": "Korean",
+      "language": "Unknown",
+      "language_short": "ko",
+      "description": "<b>Korean</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "KO-Korean_korean.sqlite",
+      "size": 5615616,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/KO-Korean_korean.sqlite"
+    },
+    {
+      "id": "Paveldo",
+      "name": "Tikinčiųjų Paveldo Vertimas",
+      "language": "LT-Lithuanian",
+      "language_short": "lt",
+      "description": "<h2>Tikinčiųjų paveldo vertimas</h2><h2>The Holy Bible in Lithuanian, Believers' Heritage Translation</h2><p>Copyright © 2022-2024 Believers' Bible Society, Inc.<br>Language: <a href=\"http://www.ethnologue.org/language/lit\">lietuvių (Lithuanian)</a><br><br>&nbsp;</p><h3>Licencija</h3><p>© 2022–2024 Believers Bible Society, Inc. Šis objektas [kūrinys] licencijuojamas pagal Creative Commons Priskyrimas - Analogiškas platinimas 4.0 Tarptautinė licencijos sąlygas. Norėdami peržiūrėti šią licenciją, spauskite šią nuorodą arba siųskite laišką adresu Creative Commons, PO Box 1866, Mountain View, CA 94042, JAV.</p><h3>Licencijos santrauka žmonėms suprantama kalba</h3><p>Čia yra žmonėms suprantama licenzijos (sutarties) santrauka (bet ne pakaitalas).</p><h3>Jūs galite:</h3><ul><li><i>Dalintis</i> — kopijuoti ir platinti medžiagą bet kokiomis priemonėmis ir formatais.</li><li><i>Adaptuoti</i> — remiksuoti, perdirbti ar kurti šios medžiagos pagrindu bet kokiais tikslais, net ir komerciniais.</li><li><i>Priskyrimas</i> [vertėjo(-ų), autoriaus(-ių) pripažinimas] — Privalote nurodyti autorystę, įdėti nuorodą į licenciją bei nurodyti, ar atlikote pakeitimų. Galite tai daryti bet kokiu protingumo kriterijus atitinkančiu būdu, tačiau ne tokiu būdu, kuris sudarytų įspūdį, kad licenciaras pritaria Jūsų veiksmams ar tam, kaip panaudotoje objektą.</li><li><i>Analogiškas platinimas</i> — Jei remiksuojate, perdirbate ar kuriate šios medžiagos pagrindu, tokios veiklos rezultatus privalote platinti panaudodami tą pačią licenciją, kuri naudota originalui.</li><li><i>Jokių papildomų apribojimų</i> — Negalite taikyti teisinių priemonių nei technologinių priemonių, kurios teisiškai apribotų kitų galimybes daryti tai, ką licencija leidžia.<ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul></li></ul>",
+      "file": "LT-Lithuanian_lt_heritage.sqlite",
+      "size": 1110016,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/LT-Lithuanian_lt_heritage.sqlite"
+    },
+    {
+      "id": "Glück 8th",
+      "name": "Glück 8th edition",
+      "language": "LV-Latvian",
+      "language_short": "lv",
+      "description": "<figure class=\"table\"><table style=\"background-color:rgb(255, 255, 255);\"><tbody><tr><td><br>This Bible was first translated by German Johann Ernst Glück and over the years has been improved until 7th edition in 1898. This Bible was created from 7th edition. However some words currently not in use in Latvian language are replaced by words in use today. Some old words are explained in parentheses. Statements or structure has not been altered.</td></tr></tbody></table></figure>",
+      "file": "LV-Latvian_lv_gluck_8.sqlite",
+      "size": 5062656,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/LV-Latvian_lv_gluck_8.sqlite"
+    },
+    {
+      "id": "ORO",
+      "name": "Macaafa Qulqulluu",
+      "language": "om",
+      "language_short": "OM",
+      "description": "Oromo Bible Translation",
+      "file": "Macaafa_Qulqulluu.sqlite",
+      "size": 5799936,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/Macaafa_Qulqulluu.sqlite"
+    },
+    {
+      "id": "Maori",
+      "name": "Maori Bible",
+      "language": "Maori",
+      "language_short": "mi",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Maori</b><p />Maori Bible prepared by Timothy Mora.\n<p />\nText reproduced by Dr. Cleve Barlow.</body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "MI-Maori_maori.sqlite",
+      "size": 5586944,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/MI-Maori_maori.sqlite"
+    },
+    {
+      "id": "मराठी IRV",
+      "name": "इंडियन रीवाइज्ड वर्जन (IRV) - मराठी",
+      "language": "MR-Marathi",
+      "language_short": "mr",
+      "description": "<h2>इंडियन रीवाइज्ड वर्जन (IRV) - मराठी</h2><h2>The Indian Revised Version Holy Bible in the Marathi language of India</h2><p>copyright © 2017, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/mar\">मराठी (Marathi)</a><br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "MR-Marathi_mr_irv.sqlite",
+      "size": 12075008,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/MR-Marathi_mr_irv.sqlite"
+    },
+    {
+      "id": "မြန်မာကျမ်းစာ",
+      "name": "မြန်မာကျမ်းစာ Judson 1840",
+      "language": "MY-Burmese",
+      "language_short": "my",
+      "description": "<h2>မြန်မာကျမ်းစာ</h2><h2>The Holy Bible in the Burmese language of Myanmar, Judson version of 1840</h2><p><a href=\"http://en.wikipedia.org/wiki/Public_domain\">Public Domain</a><br>Language: <a href=\"http://www.ethnologue.org/language/mya\">ဗမာ (Burmese)</a><br>Translation by: Adoniram Judson<br>&nbsp;</p>",
+      "file": "MY-Burmese_my_judson.sqlite",
+      "size": 13946880,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/MY-Burmese_my_judson.sqlite"
+    },
+    {
+      "id": "अनलक शाब्दिक बाइबल",
+      "name": "अनलक शाब्दिक बाइबल",
+      "language": "NE-Nepali",
+      "language_short": "ne",
+      "description": "<h2>पवित्र बाइबल</h2><h2>The Holy Bible in the Nepali language, Unlocked Literal Bible translation.</h2><p>copyright © 2019 <a href=\"https://door43.org/\">Door43 World Missions Community</a><br>Language: <a href=\"http://www.ethnologue.org/language/npi\">नेपाली (Nepali)</a><br>Translation by: Door43 World Missions Community<br>Contributor: Aliya Shrestha, Ananda Khadka, Deepak Raj Giri, Devendra Bhattarai, Dinesh Rai, Diwash Tamang, Hari Prasad Regmi, Hum Lamtari, Krishna B Bahora, Kumar Bardewa, Mohan Rai, Nabin Darmali, Prem Krishna Maharjan, Ramesh Basnet, Salome Bhatta, Samuel Mabohang, Shailendra Subba, Sharan Kumar Rai, Simon Magarati, Titak Basnet, Utter Kumar Rai, Yogendra Thapa, Amos Gajmer, Hari Prasad Regmi, Lok Bahadur Sunuwar, Mrs. Sareeta Giri, Pastor Ait Bahadur Tumbahangphe, Jesus Family Church, Pastor Bishnu Basnet, Anugraha Jyoti Church, Pastor Philip Subedi, Rev. Rajendra Malla, Rev. Shiva Hari Bhattarai, National Churches Fellowship of Nepal, Rev. Sunder Bahadur Thapa<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "NE-Nepali_ne_ulb.sqlite",
+      "size": 12279808,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/NE-Nepali_ne_ulb.sqlite"
+    },
+    {
+      "id": "NIV",
+      "name": "New International Version",
+      "language": "en",
+      "language_short": "EN",
+      "description": "New International Version",
+      "file": "New_International_Version.sqlite",
+      "size": 5033984,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/New_International_Version.sqlite"
+    },
+    {
+      "id": "Stve",
+      "name": "Staten Vertaling",
+      "language": "Dutch",
+      "language_short": "nl",
+      "description": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"></head><body><b>Dutch Staten Vertaling</b><p />BIJBEL\n<p />\nDAT IS\nDE GANSE HEILIGE SCHRIFT\n<p />\nBEVATTENDE AL DE KANONIEKE BOEKEN\nVAN HET\n<p />\nOUDE EN NIEUWE TESTAMENT\n<p />\nDOOR LAST VAN DE HOOG-MOGENDE HEREN STATEN-GENERAAL DER VERENIGDE NEDERLANDEN EN VOLGENS HET BESLUIT VAN DE SYNODE NATIONAAL GEHOUDEN TE DORDRECHT IN DE JAREN 1618 EN 1619 UIT DE OORSPRONKELIJKE TALEN IN ONZE NEDERLANDSE TAAL GETROUWELIJK OVERGEZET\n<p />\nBased on electronic edition from <'a href='http://www.coas.nl/bijbel' target='_blank'>http://www.coas.nl/bijbel</a></body></html>\r\n<br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "NL-Dutch_stve.sqlite",
+      "size": 5443584,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/NL-Dutch_stve.sqlite"
+    },
+    {
+      "id": "ਪੰਜਾਬੀ IRV",
+      "name": "ਇੰਡਿਅਨ ਰਿਵਾਇਜ਼ਡ ਵਰਜ਼ਨ (IRV) - ਪੰਜਾਬੀ",
+      "language": "PA-Punjabi,_Panjabi",
+      "language_short": "pa",
+      "description": "<h2>ਇੰਡਿਅਨ ਰਿਵਾਇਜ਼ਡ ਵਰਜ਼ਨ (IRV) - ਪੰਜਾਬੀ</h2><h2>The Indian Revised Version Holy Bible in the Eastern Punjabi language of India (BCS 2019)</h2><p>copyright © 2017, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/pan\">ਪੰਜਾਬੀ (Panjabi, Eastern)</a><br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "PA-Punjabi,_Panjabi_pa_irv.sqlite",
+      "size": 11345920,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PA-Punjabi,_Panjabi_pa_irv.sqlite"
+    },
+    {
+      "id": "PolBG",
+      "name": "Polska Biblia Gdanska",
+      "language": "Unknown",
+      "language_short": "pl",
+      "description": "\nPolska Biblia Gdanska, 1881<br><br>\nPolska Biblia Gdanska (1632, rewizja 1738, od 1838 wydawana bez Apokryfów, rewizja Nowego Testamentu 1881)<br /><br />This Bible imported from Bible Analyzer <a href='http://www.bibleanalyzer.com/download.htm'>http://www.bibleanalyzer.com/download.htm</a>",
+      "file": "PL-Polish_polbg.sqlite",
+      "size": 5107712,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PL-Polish_polbg.sqlite"
+    },
+    {
+      "id": "NBG",
+      "name": "NOWEJ BIBLII GDANSKIEJ",
+      "language": "Unknown",
+      "language_short": "pl",
+      "description": "<p>Cale Pismo natchnione jest przez Boga oraz pomocne do nauki, do dowodu , do \n\trewizji, do wychowania dzieci w sprawiedliwosci;\n\t<br />\n\taby czlowiek Boga byl przygotowany i wyposazony do kazdego szlachetnego \n\tdzialania.</p>\t\n\t<p>Zas zaswiadczam kazdemu, kto slucha slów proroctwa tego zwoju: Jesli ktos doda do tego - Bóg doda na niego ciosów opisanych w tym zwoju. \n\tA jesli ktos ujmie ze slów proroctwa tego zwoju - Bóg ujmie jego czesc  ze Zwoju Zycia i ze swietego miasta; tych, co sa opisane w tym zwoju.</p>\n<hr/>\n\n<p align=\"center\" class=\"MsoNormal\">\n\t<b><span>INFORMACJE O NOWEJ BIBLII GDANSKIEJ</span></b></p>\n<p class=\"MsoNormal\">\n\t<span>Slaskie Towarzystwo Biblijne przedstawia nowe tlumaczenie \n\tPisma Swietego (Biblii); przede wszystkim dziekujac Panu Jezusowi, ze pozwolil \n\tnam wykonac to zadanie. </span></p>\n<p class=\"MsoNormal\">\n\t<span>Przeklad ten nie jest jednak oderwany od tlumaczen dokonanych w \n\tprzeszlosci. Jako punkt wyjscia przyjelismy tak zwana Biblie <i>Gdanska,</i> \n\twydana przed 360 laty. Stad nazwa niniejszego przekladu - <i>Nowa</i> Biblia <i>\n\tGdanska</i>.\n </span>\n</p>\n\n<p class=\"MsoNormal\">\n\t<span>Stary Testament opracowalismy na bazie hebrajsko - polskiego przekladu <i>\n\tTanach</i> - dokonanego przez Izaaka Cylkowa, greckiego tekstu Septuaginty oraz \n\tBiblii Gdanskiej; zas Nowy Testament tlumaczylismy ze zbioru greckich \n\tmanuskryptów, znanych jako &quot;Textus Receptus&quot;. </span></p>\n<p class=\"MsoNormal\">\n\t<span>Róznice, badz odniesienia, oznaczono symbolami: <b><s><sup>TR</sup></s></b>\n\t<s>Textus Receptus</s>, <b><sup>C</sup> C</b>ylkow, <b><sup>S </sup>S</b>eptuaginta,\n\t<b><sup>BG </sup>B</b>iblia <b>G</b>danska.<br /><br />\n\tCzerwonym drukiem napisano numeracje wierszy, gwiazdki *, symbole odnosników oraz slowa dodane; niebieskim – odniesienia do innych Ksiag.  </span>\n</p>\n<p class=\"MsoNormal\">\n\t<span>W przypisach najczesciej podajemy rozszerzone znaczenie hebrajskich, lub \n\tgreckich slów. Poniewaz nie zawsze jeden polski wyraz przekazuje istotne \n\telementy semantycznej struktury slowa oryginalu i niekiedy, aby go glebiej \n\tzrozumiec, trzeba sie posilkowac kilkoma wyrazami.  </span>\n</p>\n<p class=\"MsoNormal\">\n\t<span>Prawa autorskie nie zastrzezone. Powielanie, kopiowanie i propagowanie \n\ttekstu NBG jak najbardziej wskazane (bez zadnych dodatków w tekscie, czy \n\tuzupelnien Pisma). <br /><br /> Zainteresowanych drukiem calosci Pisma prosimy o kontakt ze STB. </span>\n</p>\n\n<p align=\"center\" class=\"MsoNormal\">\n\t<b><span>Slaskie Towarzystwo Biblijne w Katowicach </span></b><br/>\n\t<a href=\"http://www.biblest.com.pl\">http://www.biblest.com.pl</a></p><br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "PL-Polish_pol_nbg.sqlite",
+      "size": 5128192,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PL-Polish_pol_nbg.sqlite"
+    },
+    {
+      "id": "UBG",
+      "name": "Uwspółcześniona Biblia Gdańska",
+      "language": "Unknown",
+      "language_short": "pl",
+      "description": "<h2>Uwspółcześniona Biblia Gdańska (PUBG)</h2><h3>Uwspółcześniona Biblia Gdańska</h3> <p>This project is being undertaken by the Gate of Hope Foundation. Its founders are Brent Riggs and Joe West. Brent and Joe have both been pastors and gospel preachers for more than 30 years. They have worked closely with Polish nationals to update the old grammar and vocabulary of the 1632 Polish Gdańsk Bible. As of April 2017, the entire Bible is finished and is being printed. It should be available by June 15. For more information, visit the website at</p> <a href=\"http://www.wrotanadziei.org\">www.wrotanadziei.org</a> <p>Ten projekt jest realizowany przez Fundację Wrota Nadziei. Fundatorami są Brent Riggs i Joe West. Brent and Joe są pastorami i kaznodziejami ewangelii od ponad 30-stu lat. Pracowali ściśle z Polakami, żeby uwspółcześnić archaiczną gramatykę i słownictwo Biblii Gdańskiej z roku 1632. Od kwietnia 2017, cała Biblia już jest gotowa i w trakcie wydruku. Powinien być w sprzedaży od drugiej połowy czerwca. Więcej informacji można uzyskać na stronie </p> <a href=\"http://www.wrotanadziei.org\">www.wrotanadziei.org</a> <h2>Copyright Information</h2> <p>© 2017 Gate of Hope Foundation</p> <p>The publisher authorizes all copying and distribution of this work both in part and in its entirety, under the condition that it is done completely free of charge and that the content remains completely unchanged. Distribution for commercial purposes requires written permission from the Foundation.</p> <p>Gate of Hope Foundation</p> <p>ul. Armii Ludowej 71b lok. 26</p> <p>87-100 Toruń, Polska</p> <a href=\"http://www.wrotanadziei.org\">www.wrotanadziei.org</a> <p>© 2017 Fundacja Wrota Nadziei</p> <p>Wydawca wyraża zgodę na kopiowanie i rozpowszechnianie całości lub części publikacji, jednak bez czerpania z tego korzyści finansowych i bez wprowadzania jakichkolwiek zmian. Powielanie do celów komercyjnych wymaga pisemnej zgody Fundacji.</p> <p>Fundacja Wrota Nadziei</p> <p>ul. Armii Ludowej 71b lok. 26</p> <p>87-100 Toruń, Polska</p> <p><a href=\"http://www.wrotanadziei.org\">www.wrotanadziei.org</a></p><br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "PL-Polish_pol_ubg.sqlite",
+      "size": 4997120,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PL-Polish_pol_ubg.sqlite"
+    },
+    {
+      "id": "JFA-RA",
+      "name": "Tradução de João Ferreira de Almeida (Versão Revista e Atualizada)",
+      "language": "Unknown",
+      "language_short": "pt",
+      "description": "<p>Tradu&ccedil;&atilde;o: - Jo&atilde;o Ferreira de Almeida: (Vers&atilde;o Revista e Actualizada, grafia usada na Europa)</p>\n\n<p>O texto desta tradu&ccedil;&atilde;o foi copiado duma antiga vers&atilde;o da</p>\n\n<p>B&iacute;blia Sagrada Gratuita por Eliseu F. A. JR.</p>\n\n<p>Faltava Miqueias 1:12-14; Lucas 9:61; Lucas 22:56; etc....</p>\n\n<p>Entre outros Ju&iacute;zes 9:4 estava incompleto.</p>\n\n<p>Al&eacute;m de outros que n&atilde;o anotei.</p>\n\n<p>Tamb&eacute;m a copiei dos seguintes &laquo;sites&raquo; que tem a mesma vers&atilde;o da B&iacute;blia</p>\n\n<p>http://www.jesus.org.uk/bible/Portuguese</p>\n\n<p>http://unbound.biola.edu/index.cfm?method=downloads.showDownloadMain</p>\n\n<p>Tamb&eacute;m copiei o Antigo Testamento, do seguinte site judaico.</p>\n\n<p>http://www.judaismo-iberico.org/interlinear/tanakh/indexpt.htm</p>\n\n<p>Obs.: Tinham v&aacute;rios erros e alguns versos corrompidos, mas eu corrigi</p>\n\n<p>a maioria dos erros e das corrup&ccedil;&otilde;es com a ajuda de um dicion&aacute;rio de</p>\n\n<p>portugu&ecirc;s que constru&iacute; para o efeito, no editor de texto &laquo;PSPad&raquo;.</p>\n\n<p>Consultei v&aacute;rias tradu&ccedil;&otilde;es da B&iacute;blia em paralelo neste programa.</p>\n\n<p>&laquo;In the beginning was the word&raquo;</p>\n\n<p>Tamb&eacute;m consultei v&aacute;rias tradu&ccedil;&otilde;es em papel da B&iacute;blia.</p>\n\n<p>Consultei ainda a tradu&ccedil;&atilde;o em MP3 no site:</p>\n\n<p>http://worldwide.familyradio.org/pt/mp3/bible/frame</p>\n\n<p>Corrigi a ortografia para a usada em Portugal.</p>\n\n<p>Tamb&eacute;m corrigi v&aacute;rios versos corrompidos e adicionei os que</p>\n\n<p>estavam em falta.<br />\n<br />\nThis Bible imported from MySword <a href=\"https://mysword.info/download-mysword/bibles\">https://mysword.info/download-mysword/bibles</a></p>\n",
+      "file": "PT-Portuguese_almeida_ra.sqlite",
+      "size": 5025792,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PT-Portuguese_almeida_ra.sqlite"
+    },
+    {
+      "id": "JFA-RC",
+      "name": "Tradução de João Ferreira de Almeida Revista e Corrigida.",
+      "language": "Unknown",
+      "language_short": "pt",
+      "description": "Tradução de João Ferreira de Almeida Revista e Corrigida. <BR> Translation of João Ferreira de Almeida (corrected). <p> Text received from the js@wordproject.org (www.wordproject.org), <p> and corrected to the portuguese orthography, <BR> used in Portugal (Europe) by the churches. <p> Texto recebido do «WordProject» com uma ortografia antiga /\r\n<BR>e corrigido para a mais usada na Europa (Portugal).\r\nNúmero de linhas (versos do Antigo Testamento): 23145\r\nNúmero total de linhas (versos do Antigo e NOvo Testamento): 31103\r\n(Salmos 1-79):<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "PT-Portuguese_almeida_rc.sqlite",
+      "size": 5025792,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PT-Portuguese_almeida_rc.sqlite"
+    },
+    {
+      "id": "Biblia Livre",
+      "name": "Biblia Livre",
+      "language": "Portuguese",
+      "language_short": "pt",
+      "description": "<p>A <strong>B&iacute;blia Livre (BLIVRE)</strong> &eacute; um projeto para fornecer a qualquer pessoa uma tradu&ccedil;&atilde;o da B&iacute;blia Sagrada de forma gratuita. Ou seja, voc&ecirc; pode copiar em seu computador, imprimir, redistribuir para outras pessoas, utilizar de forma integral ou parcial, inclusive em materiais com fins lucrativos.</p>\n\n<h1>Sobre a B&iacute;blia Livre</h1>\n\n<p>A maioria das tradu&ccedil;&otilde;es da B&iacute;blia na l&iacute;ngua portuguesa usadas atualmente est&aacute; sujeita a direitos autorais, ou seja, voc&ecirc; deve pagar para us&aacute;-las. Normalmente seus donos permitem um uso restrito, como 500 vers&iacute;culos, ou outras regras, mas preferimos disponibilizar as Sagradas Escrituras sem qualquer custo. Existem outras vers&otilde;es em dom&iacute;nio p&uacute;blico, como as primeiras vers&otilde;es de Jo&atilde;o Ferreira de Almeida, ou a do padre Ant&ocirc;nio Pereira de Figueiredo. Por&eacute;m elas s&atilde;o antigas, e por esse motivo possuem um vocabul&aacute;rio que pode parecer estranho para a nossa &eacute;poca.</p>\n\n<p>Portanto, pela falta de tradu&ccedil;&otilde;es B&iacute;blicas que sejam ao mesmo tempo modernas e de uso livre e gratuito, resolvi lan&ccedil;ar a minha pr&oacute;pria tradu&ccedil;&atilde;o da B&iacute;blia, livre e gratuita.</p>\n\n<p>A B&iacute;blia Livre ser&aacute; produzida atrav&eacute;s do seguinte processo:</p>\n\n<ul>\n\t<li>Verifica&ccedil;&atilde;o do texto da B&iacute;blia de Jo&atilde;o Ferreira de Almeida de 1819, em dom&iacute;nio p&uacute;blico.</li>\n\t<li>Atualiza&ccedil;&atilde;o do vocabul&aacute;rio, trocando palavras antigas por formas equivalentes.</li>\n\t<li>Alterar a ordem das palavras para uma forma mais comum em l&iacute;ngua portuguesa, sem altera&ccedil;&atilde;o no sentido original do texto.</li>\n\t<li>Revis&atilde;o do texto, comparando com o idioma original, e possivelmente tamb&eacute;m com outras tradu&ccedil;&otilde;es, como a King James Version, entre outras.</li>\n</ul>\n\n<p>Al&eacute;m disso, &eacute; muito importante a participa&ccedil;&atilde;o dos todos, para revisarem o texto e sugerirem melhorias ou corre&ccedil;&otilde;es. Agrade&ccedil;o qualquer ajuda.</p>\n\n<p>Por enquanto o trabalho est&aacute; em desenvolvimento. Os textos est&atilde;o em constante revis&atilde;o, procurando torn&aacute;-los cada vez melhores.</p>\n\n<p>Mais informa&ccedil;&otilde;es podem ser obtidas atrav&eacute;s da p&aacute;gina de <a href=\"https://sites.google.com/site/biblialivre/perguntas-e-respostas\">perguntas e respostas</a>.</p>\n\n<h3>Comiss&atilde;o de tradu&ccedil;&atilde;o</h3>\n\n<ul>\n\t<li>Diego Renato dos Santos - Editor-chefe (todos os livros)</li>\n\t<li>Mario S&eacute;rgio de Souza Figueira - Hebreus, Tiago</li>\n\t<li>Marco Antonio Teles da Costa - 3 Jo&atilde;o</li>\n</ul>\n\n<p>Voc&ecirc; tamb&eacute;m pode participar dessa equipe.</p>\n\n<h3>LICEN&Ccedil;A</h3>\n\n<p>B&iacute;blia Livre pela comiss&atilde;o de tradu&ccedil;&atilde;o Livre est&aacute; sob a <a href=\"https://github.com/blivre/BibliaLivre/blob/master/LICENCA.md\">Licen&ccedil;a Creative Commons Atribui&ccedil;&atilde;o 3.0 Brasil</a>.</p>\n\n<p>Baseado na edi&ccedil;&atilde;o de 1819 de Jo&atilde;o Ferreira de Almeida.</p>\n\n<p>&nbsp;</p>\n\n<p><br />\nThis Bible imported from MySword <a href=\"https://mysword.info/download-mysword/bibles\">https://mysword.info/download-mysword/bibles</a></p>\n\n<p>&nbsp;</p>\n",
+      "file": "PT-Portuguese_blivre.sqlite",
+      "size": 5001216,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/PT-Portuguese_blivre.sqlite"
+    },
+    {
+      "id": "Cornilescu",
+      "name": "Cornilescu",
+      "language": "Romanian",
+      "language_short": "ro",
+      "description": "<b>Romanian: Cornilescu</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "RO-Romanian_cornilescu.sqlite",
+      "size": 5361664,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/RO-Romanian_cornilescu.sqlite"
+    },
+    {
+      "id": "Fidela",
+      "name": "Fidela Biblia în limba română",
+      "language": "Unknown",
+      "language_short": "ro",
+      "description": "<h2 ALIGN=CENTER><B>BIBLIA</B></h2>\n<h3 ALIGN=CENTER><B>FIDELA</B></h3>\n<P>\n<BR>\n</P>\n<h3 ALIGN=CENTER>traducere literală nouă<br/>\ncompletată, revizuită şi actualizată</h3>\n<P>\n<BR>\n</P>\n<P ALIGN=CENTER>Cluj-Napoca</P>\n<P ALIGN=CENTER>2016</P>\n<P><BR>\n</P>\n<P><B>Biblia Traducerea Fidela în limba română</B><br/>\n<B>ediţia a IV-a</B></P>\n<P><BR>\n</P>\n<P>Biblia Traducerea Fidela în limba română<br/>\nCopyright\n&copy; 2016 Andrei Beniamin Lariu<br/>\nStr. Nirajului nr. 6<br/>\nCluj-Napoca, România</P>\n<P>ISBN 978-1-56632-137-2</P>\n<P><BR>\n</P>\n\n<P>Dragă cititorule,</P>\n\n<P><SPAN LANG=\"ro-RO\">Ţii în mână rezultatul a peste nouă ani de muncă, constând în zeci de mii de ore de studiu individual, traduceri, revizuiri, însoţite de agonie şi mulţumire. Noi credem că ţi-am înmânat în modul cel mai curat cu putinţă Cuvântul păstrat al lui Dumnezeu. Fii binecuvântat în studierea adâncilor bogăţii ale Domnului Isus Cristos.\n</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Una dintre cele mai vechi traduceri ale Bibliei existente în limba română este Traducerea Română Ortodoxă din 1688. Este dificil de înţeles exprimarea ei, fiind scrisă în ceea ce acum numim un stil românesc arhaic. În anii care au urmat, diferite religii şi-au tradus propriul text şi versiuni ale Scripturii, precum Biblia Catolică de la Blaj, scrisă în 1795, apoi o altă traducere de la Iaşi 1874, făcută sub blazonul Societăţii Biblice pentru Anglia şi întreaga lume. La începutul anilor ‘20 Dumitru Cornilescu a tradus o Biblie ridicată la rangul “Bibliei pe înţelesul tuturor”. A fost un maestru al limbii române contemporane acelei perioade şi literar a pus în mâna poporului o capodoperă cunoscută după numele său “Traducerea Cornilescu”. A ajuns să fie folosită la scară largă şi a fost acceptată de bisericile baptiste şi penticostale deopotrivă reprezentând standardul lor până azi. Domnul Cornilescu de asemenea a făcut o a doua traducere a Noului Testament publicată la începutul anilor ‘30; a doua lui traducere a fost o încercare de traducere literală a unui text grecesc dar a fost în aparenţă primit mult mai slab, astăzi această traducere fiind foarte puţin răspândită.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Între bisericile din lumea de astăzi se face multă discuţie pe seama unui text care să conţină Toate Cuvintele lui Dumnezeu şi unde este acesta de găsit. De fapt această discuţie divide pe mulţi chiar dintre cei care cad de acord asupra crezurilor de bază cum ar fi: credinţa, salvarea, Dumnezeu, Isus Cristos şi Duhul Sfânt. Ţelul nostru a fost unul foarte simplu, am dorit să punem în circulaţie o Biblie care să conţină fiecare cuvânt al lui Dumnezeu. De-a lungul ultimilor 80 de ani, Bibliile scoase în circulaţie în România au fost traduceri după textul numit de cunoscători Textul Critic. Crezul nostru este că Biblia sau Cuvintele lui Dumnezeu nu au fost păstrate în Textul Critic ci mai degrabă în manuscrisul Textul Masoretic şi în Textus Receptus; şi orice traducere demnă de crezare trebuie să îşi găsească sursa în acestea. Cele mai recunoscute traduceri în limba română, cu toată valoarea lor literară recunoscută, din nefericire, în cea mai mare parte sunt traduceri ale Textului Critic. În anul 2001 Dumnezeu a început să pună împreună o echipă de creştini cu aceeaşi credinţă şi astfel proiectul Fidela a luat fiinţă.\n</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Am dorit să producem o traducere nouă care să aibă ca origine familia grecească a Textului Receptus pentru Noul Testament şi astfel am început să experimentăm diferite metode care să aibă ca rezultat lucrarea scontată. Din anul 2001 până în anul 2005 am lucrat la Noul Testament şi Cartea Proverbe, tipărind prima ediţie. După cunoştinţele noastre a fost singura traducere a Noului Testament, chiar dacă foarte puţin răspândită, având ca origine, textul grecesc, Textus Receptus. În anii care au urmat, în paralel cu două revizuiri lingvistice, am continuat să adăugăm cărţi ale Vechiului Testament, şi în final am terminat lucrarea, întreaga Scriptură, la 05 Aprilie 2010. Câteva lucruri trebuie menţionate despre această traducere. Înainte de toate noi credem în echivalenţa formală. Acesta este crezul după care cuvintele lui Dumnezeu sunt literale şi trebuie traduse literal. Am încercat să ocolim practica echivalenţei dinamice, care este de prea multe ori, ceea ce traducătorul doreşte să spună. Pentru că această traducere este una literală, vei observa unele exprimări sau fraze mai neobişnuite. Un lucru trebuie păstrat în minte si anume, Cuvintele lui Dumnezeu nu pot fi eliminate sau adăugate doar pentru a le face mai uşor de înţeles. Se pare că majoritatea oamenilor îşi doresc o Biblie “uşor de citit” în timp ce mai puţini îşi doresc una care să conţină toate cuvintele lui Dumnezeu.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Vrem să facem cunoscut că am comparat textul FIDELA cu alte traduceri. Am încercat să găsim cât mai mult traduceri româneşti în circulaţie şi să le folosim comparând termeni şi expresii pentru alegerea celor mai justificate sensuri. Au fost folosite de asemenea şi texte în alte limbi în paralel cu textele româneşti când anumite pasaje au avut nevoie de mai multe clarificări. În total au fost folosite 9 texte de limbă română şi 10 în limbi străine. Datorită faptului că există aşa de multe traduceri astăzi care provin din surse diverse, am avut nevoie de o traducere modernă bazată numai pe textul ebraic Masoretic şi textul grecesc Textus Receptus pentru a verifica acurateţea traducerii noastre. De aceea am folosit Biblia în limba engleză, King James ca ghidul și lexiconul nostru. Adăugate acestor traduceri sunt nenumărate ore de cercetare, citire, discuţii privind comentarii teologice, lexicoane, mesaje şi teorii doctrinare. Am ascultat şi criticii acestui text şi am ajustat ceea ce a fost criticat justificat şi susţinut cu argumente lingvistice serioase sau de traducere. Nu am considerat nimic prea neimportant pentru a nu lua în seamă şi mulţumim tuturor celor care ne-au trimis sugestiile lor la munca ce am făcut-o.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">În ce priveşte metoda editării textului, sunt două mari modalităţi de prezentare a textului. Metoda paragrafului în care textul este împărţit în paragrafe şi citit ca un roman; urmând această metodă, punctuaţia propoziţiei este normală iar versetele sunt fie adăugate ca şi indicii fie la începutul rândului. Urmând această metodă citirea ar putea fi mai uşoară dar versetele sunt deosebit de greu de identificat. Cealaltă metodă de bază acceptată este separarea versetelor în text, fiecare verset începe cu literă mare, chiar dacă nu începe o propoziţie nouă, de asemenea este un semn de punctuaţie ce marchează sfârşitul fiecărui verset. Nu sunt ghilimele în text dar dialogul este marcat clar prin majusculă precedată de două puncte. Amândouă metodele sunt acceptate şi amândouă sunt folosite în tipărirea Scripturii peste tot în lume. Am ales metoda separării versetelor, ceea ce înseamnă că traducerea prezintă diferenţe de punctuaţie faţă de punctuaţia propoziţiei, folosită în mod normal în limba română, fiecare situaţie este uşor de înţeles din contextul ei.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Au fost cazuri când am combinat mai multe cuvinte din greacă într-un singur cuvânt în româneşte. Sau poate a fost necesar să explicăm un cuvânt grecesc prin mai multe cuvinte în româneşte. Nu am adăugat sau scos din text făcând aceasta, ci doar am tradus diferenţele dintre gramaticile greacă/ebraică şi cea românească. Un exemplu în care am folosit mai multe cuvinte în româneşte pentru unul singur în greacă îl constituie traducerea cuvântului grecesc „dikaioo”. Înţelesul teologic al acestui cuvânt este, a fi declarat drept, astfel că am folosit mai multe cuvinte pentru traducerea unuia singur.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Numele au fost preluate din celelalte traduceri româneşti, cu câteva excepţii, cel puţin una este mai semnificativă. Am schimbat numele a două cărţi din Noul Testament. Una este Titus, pentru a urma reproducerea fidelă a numelui din limba greacă; cealaltă este cartea Revelaţia. Majoritatea celorlalte traduceri în româneşte ale Scripturii traduc ultima carte cu numele de “Apocalipsa”. Nu am putut folosi cuvântul „Apocalipsa,” având în vedere sensul şi direcţia limbii moderne pe care o imprimă noul Dicţionar Explicativ al limbii, care afirmă sensul de alegorie al cuvântului. Cuvântul grecesc din text, \"Apocalipsa\", înseamnă revelare, revelaţie, iar cartea începe în acelaşi fel, Revelaţia lui Isus Cristos. Astfel am pus cărţii numele: Revelaţia. Un alt nume care este diferit faţă de celelalte traduceri româneşti este Ioan Botezătorul care este tradus ca Ioan Baptist. Mai multe dintre traducerile notabile observă şi păstrează conotaţia de titlu a numelui lui Ioan şi nu de descriere sau explicare inteligibilă în limba traducerii a ceea ce el făcea, faptul că boteza. Faptul că titlul lui se confundă cu numele unei confesiuni religioase nu justifică schimbarea unui cuvânt scriptural.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">De asemenea vrem să scoatem în evidenţă practica multor traduceri de a începe pronumele divine cu majusculă. În general nu ne opunem acestei practici. În fapt, în prima ediţie a traducerii am folosit majuscule pentru ceea ce noi am considerat a fi pronume divine, până când am început să observăm că deseori acest lucru era o alegere editorială. Nu toate situaţiile sunt lipsite de echivoc. Nu am dorit să avem în text amprente editoriale şi nici să conducem cititorul la a trage concluzii posibil incorecte. Astfel, nu am folosit majuscule pentru pronumele divine cu excepţia câtorva în Vechiul Testament. Lăsăm alegerea şi interpretarea la îndemâna dumneavoastră, călăuzit fiind de Duhul Sfânt. Nu lipsa de respect intră aici în discuţie ci onestitatea faţă de text şi cititor.</SPAN></P>\n<P><SPAN LANG=\"ro-RO\">Acest text se poate tipări după dorinţa inimii. Se poate vinde sau răspândi gratuit, este alegerea oricui doreşte să facă aceasta. Dar nu se poate schimba textul prin scoatere sau adăugare de cuvinte din el, nici prin schimbarea numelui. Deţinem dreptul de traducere asupra lui doar pentru protejarea tuturor celor care doresc folosirea lui în forma actuală. Se poate cita, copia, folosi după buna voie. Nu trebuie cerută permisiunea noastră pentru acest lucru. Dar cerem să fie folosită titulatura FIDELA, în toate situaţiile în care se cere identificarea textului. Aceasta este de asemenea o practică atribuită fiecărei traduceri cu sau fără drept de autor. Numele acestei traduceri este FIDELA, pentru faptul că am dorit să dăm o traducere curată a cuvintelor păstrate şi inspirate ale lui Dumnezeu. Fie ca folosirea acestei Biblii să îţi dea sănătate spirituală şi creştere în har; şi numele Domnului să fie înălţat peste cel al păgânilor. Binecuvântat fie numele Domnului!</SPAN></P>\n<P><BR>\n</P>\n<P>Cluj-Napoca, România</P>\n<P>2016</P>\n<P><BR>\n</P>\n<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "RO-Romanian_fidela.sqlite",
+      "size": 5472256,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/RO-Romanian_fidela.sqlite"
+    },
+    {
+      "id": "Synodal",
+      "name": "Synodal",
+      "language": "Russian",
+      "language_short": "ru",
+      "description": "<b>Russian: Synodal Translation (1876)</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "RU-Russian_synodal.sqlite",
+      "size": 7266304,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/RU-Russian_synodal.sqlite"
+    },
+    {
+      "id": "Kitaabka Quduuska Ah",
+      "name": "Kitaabka Quduuska Ah Adan Jim'ale",
+      "language": "SO-Somali",
+      "language_short": "so",
+      "description": "<h2>Kitaabka Quduuska Ah</h2><h2>The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version</h2><p>copyright © 1979, 2008 <a href=\"http://www.sim.org\">Society for International Ministries -- Kenya</a><br>Language: <a href=\"http://www.ethnologue.org/language/som\">Somali</a><br>Translation by: SIM International<br><br>&nbsp;</p><h2>Somali, Kitaablka Quduuska Ah</h2><p>This translation, published by the SIM, was published in 2008.</p><p>.</p><p>If you are interested in obtaining a printed copy, please contact the SIM at PO Box 72983, Nairobi, Kenya.</p><p>.</p><p>This translation text is made available to you under the terms of the Creative Commons License: Attribution-Noncommercial-No Derivative Works. (http://creativecommons.org/licenses/by-nc-nd/3.0/) In addition, you have permission to port the text to different file formats, as long as you do not change any of the text or punctuation of the Bible.</p><p>You may share, copy, distribute, transmit, and extract portions or quotations from this work, provided that you include the above copyright information:</p><ul><li>You must give Attribution to the work.</li><li>You do not sell this work for a profit.</li><li>You do not make any derivative works that change any of the actual words or punctuation of the Scriptures.</li></ul><p>Permissions beyond the scope of this license may be available if you contact us with your request.</p><p>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "SO-Somali_so_jimale.sqlite",
+      "size": 5726208,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/SO-Somali_so_jimale.sqlite"
+    },
+    {
+      "id": "Albanian",
+      "name": "Albanian",
+      "language": "Unknown",
+      "language_short": "sq",
+      "description": "<p><strong>Albanian</strong></p>\n\n<p><br />\n<br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n",
+      "file": "SQ-Albanian_albanian.sqlite",
+      "size": 5464064,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/SQ-Albanian_albanian.sqlite"
+    },
+    {
+      "id": "Swahili NT",
+      "name": "Swahili NT",
+      "language": "Unknown",
+      "language_short": "sw",
+      "description": "<p><strong>Swahili NT</strong></p>\n\n<p>Public Domain Swahili New Testament</p>\n\n<p>PLEASE MAKE COPIES FOR YOUR FRIENDS, NO ROYALTY DUE.<br />\n<br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n",
+      "file": "SW-Swahili_swahili.sqlite",
+      "size": 1228800,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/SW-Swahili_swahili.sqlite"
+    },
+    {
+      "id": "தமிழ் IRV",
+      "name": "இண்டியன் ரிவைஸ்டு வெர்ஸன்",
+      "language": "TA-Tamil",
+      "language_short": "ta",
+      "description": "<h2>இண்டியன் ரிவைஸ்டு வெர்ஸன் (IRV) - தமிழ்</h2><h2>The Indian Revised Version Holy Bible in the Tamil language of India</h2><p>copyright © 2017, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/tam\">தமிழ் (Tamil)</a><br>Translation by: Bridge Connectivity Solutions<br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "TA-Tamil_ta_irv.sqlite",
+      "size": 14409728,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TA-Tamil_ta_irv.sqlite"
+    },
+    {
+      "id": "திறந்த சமகால",
+      "name": "திறந்தநிலை தமிழ் சமகால பதிப்பு",
+      "language": "TA-Tamil",
+      "language_short": "ta",
+      "description": "<h2>Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு</h2><h2>The Holy Bible in the Tamil language of India: Biblica® Open Indian Tamil Contemporary Version திறந்தநிலை தமிழ் சமகால பதிப்பு</h2><p>copyright © 2005, 2020, 2022 <a href=\"http://www.Biblica.com/permissions\">Biblica, Inc.</a><br>Language: <a href=\"http://www.ethnologue.org/language/tam\">தமிழ் (Tamil)</a><br>Contributor: Biblica, Inc.<br><br>&nbsp;</p><p>Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு™</p><p>பதிப்புரிமை © 2005, 2020, 2022 Biblica, Inc.</p><p>&nbsp;</p><p>Biblica® Open Indian Tamil Contemporary Version™</p><p>Copyright © 2005, 2020, 2022 by Biblica, Inc.</p><p>&nbsp;</p><p>“Biblica” என்பது Biblica, Inc. மூலம் யுனைடெட் ஸ்டேட்ஸ் காப்புரிமை மற்றும் வர்த்தக முத்திரை அலுவலகத்தில் பதிவுசெய்யப்பட்ட வர்த்தக முத்திரை. அனுமதியுடன் பயன்படுத்‌தப்‌படுகிறது.</p><p>&nbsp;</p><p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p><p>&nbsp;</p><p>――――――</p><p>&nbsp;</p><p>இந்த வேலை Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA)ன் கீழ் கிடைக்கிறது. இந்த உரிமத்தின் நகலைப் பார்க்க, https:creativecommons.org/licenses/by-sa/4.0&nbsp;ஐப் பார்வையிடவும் அல்லது Creative Commons, PO Box 1866, Mountain View, CA 94042, USA க்கு கடிதம் அனுப்பவும்.</p><p>&nbsp;</p><p>Biblica® என்பது Biblica, Inc. ஆல் பதிவுசெய்யப்பட்ட வர்த்தக முத்திரையாகும், மேலும் Biblica® வர்த்தக முத்திரையைப் பயன்படுத்துவதற்கு Biblica, Inc இன் எழுத்துப்பூர்வ அனுமதி தேவை. CC BY-SA உரிமத்தின் விதிமுறைகளின்படி, நீங்கள் இதை மாற்றப்படாமல் நகலெடுத்து மறுவிநியோகம் செய்யலாம். நீங்கள் Biblica® வர்த்தக முத்திரையை அப்படியே வைத்திருக்கவேண்டும். நீங்கள் ஒரு நகலை மாற்றினால் அல்லது இந்த படைப்பை மொழிபெயர்த்தால், அதன் மூலம் ஒரு பகுதி படைப்பை உருவாக்கினால், நீங்கள் Biblica® வர்த்தக முத்திரையை அகற்ற வேண்டும். நீங்கள் என்ன மாற்றங்களைச் செய்திருக்கிறீர்கள் என்பதைக் குறிப்பிட வேண்டும் மற்றும் படைப்பை பின்வருமாறு குறிப்பிட வேண்டும்: “Biblica, Inc. இன் அசல் படைப்பு www.biblica.com&nbsp;மற்றும் open.bible&nbsp;இல் இலவசமாகக் கிடைக்கிறது.”</p><p>&nbsp;</p><p>பதிப்புரிமை பற்றிய அறிவிப்பு படைப்பின் தலைப்பு அல்லது பதிப்புரிமைப் பக்கத்தில் பின்வருமாறு தோன்ற வேண்டும்:</p><p>&nbsp;</p><p>Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு™</p><p>பதிப்புரிமை © 2005, 2020, 2022 Biblica, Inc.</p><p>&nbsp;</p><p>Biblica® Open Indian Tamil Contemporary Version™</p><p>Copyright © 2005, 2020, 2022 by Biblica, Inc.</p><p>&nbsp;</p><p>“Biblica” என்பது Biblica, Inc. மூலம் யுனைடெட் ஸ்டேட்ஸ் காப்புரிமை மற்றும் வர்த்தக முத்திரை அலுவலகத்தில் பதிவுசெய்யப்பட்ட வர்த்தக முத்திரை. அனுமதியுடன் பயன்படுத்‌தப்‌படுகிறது.</p><p>&nbsp;</p><p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p><p>&nbsp;</p><p>அதே உரிமத்தின் கீழ்(CC BY-SA) அசல் படைப்பிலிருந்து மாற்றிய உங்கள் வேலையை நீங்கள் கிடைக்கும்படி தெரிவிக்கவேண்டும்.</p><p>&nbsp;</p><p>இந்த படைப்பின் மொழிபெயர்ப்பு குறித்து Biblica, Inc.க்கு தெரிவிக்க விரும்பினால், https:open.bible/contact&nbsp;இல் எங்களைத் தொடர்பு கொள்ளவும்.</p><p>&nbsp;</p><p>This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0&nbsp;or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p><p>&nbsp;</p><p>Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at www.biblica.com&nbsp;and open.bible.”</p><p>&nbsp;</p><p>Notice of copyright must appear on the title or copyright page of the work as follows:</p><p>&nbsp;</p><p>Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு™</p><p>பதிப்புரிமை © 2005, 2020, 2022 Biblica, Inc.</p><p>&nbsp;</p><p>Biblica® Open Indian Tamil Contemporary Version™</p><p>Copyright © 2005, 2020, 2022 by Biblica, Inc.</p><p>&nbsp;</p><p>“Biblica” என்பது Biblica, Inc. மூலம் யுனைடெட் ஸ்டேட்ஸ் காப்புரிமை மற்றும் வர்த்தக முத்திரை அலுவலகத்தில் பதிவுசெய்யப்பட்ட வர்த்தக முத்திரை. அனுமதியுடன் பயன்படுத்‌தப்‌படுகிறது.</p><p>&nbsp;</p><p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p><p>&nbsp;</p><p>You must also make your derivative work available under the same license (CC BY-SA).</p><p>&nbsp;</p><p>If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at https://open.bible/contact.</p><p>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "TA-Tamil_ta_oitce.sqlite",
+      "size": 15360000,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TA-Tamil_ta_oitce.sqlite"
+    },
+    {
+      "id": "తెలుగు IRV",
+      "name": "ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు",
+      "language": "TE-Telugu",
+      "language_short": "te",
+      "description": "<h2>ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019</h2><h2>The Indian Revised Version Holy Bible in the Telugu language of India</h2><p>copyright © 2017, 2019 <a href=\"https://bridgeconn.com/\">Bridge Connectivity Solutions</a><br>Language: <a href=\"http://www.ethnologue.org/language/tel\">తెలుగు (Telugu)</a><br>Translation by: Bridge Connectivity Solutions<br>Contributor: Bridge Connectivity Solutions Pvt. Ltd.<br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "TE-Telugu_te_irv.sqlite",
+      "size": 11841536,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TE-Telugu_te_irv.sqlite"
+    },
+    {
+      "id": "Части Библии в таджикском",
+      "name": "Части Библии в таджикском языке Таджикистан",
+      "language": "TG-Tajik",
+      "language_short": "tg",
+      "description": "<h2>Хушхабар</h2><h2>Portions of the Holy Bible in the Tajik language of Tajikistan</h2><h2>Части Библии в таджикском языке Таджикистан</h2><p>Copyright © 2010, 2014 Фонди «Калом»<br>Language: <a href=\"http://www.ethnologue.org/language/tgk\">тоҷикӣ (Tajik)</a><br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "TG-Tajik_tg_tgk.sqlite",
+      "size": 1175552,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TG-Tajik_tg_tgk.sqlite"
+    },
+    {
+      "id": "Thaikjv",
+      "name": "Thai KJV",
+      "language": "Thai",
+      "language_short": "th",
+      "description": "<p><strong>Thai: from KJV</strong></p><p>Thai translation of the King James Version from <a href=\"http://thaipope.org/webbible/index.html\">http://thaipope.org/webbible/index.html</a><br><br>This Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>",
+      "file": "TH-Thai_thaikjv.sqlite",
+      "size": 12681216,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TH-Thai_thaikjv.sqlite"
+    },
+    {
+      "id": "TIG",
+      "name": "Tigrigna Bible",
+      "language": "ti",
+      "language_short": "TI",
+      "description": "ትግርኛ መጽሓፍ ቅዱስ",
+      "file": "Tigrigna_Bible.sqlite",
+      "size": 7118848,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/Tigrigna_Bible.sqlite"
+    },
+    {
+      "id": "TAB",
+      "name": "Tagalog Ang Biblia",
+      "language": "Unknown",
+      "language_short": "tl",
+      "description": "<strong>Tagalog Ang Biblia</strong><p> Philippine Bible Society (1905)</p><p> Translation of the Bible in Tagalog (national language of the Philippines)</p><p> This Bible is in Public Domain </p><p> Typed from the Ang Biblia Tagalog by Richard & Dolores Long</p><br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "TL-Tagalog_tagab.sqlite",
+      "size": 6008832,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TL-Tagalog_tagab.sqlite"
+    },
+    {
+      "id": "Turkish",
+      "name": "Turkish",
+      "language": "Unknown",
+      "language_short": "tr",
+      "description": "<b>Turkish</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "TR-Turkish_turkish.sqlite",
+      "size": 4800512,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/TR-Turkish_turkish.sqlite"
+    },
+    {
+      "id": "مۇقەددەس كىتاب",
+      "name": "مۇقېددېس‭ ‬كالام (‭‬يەنگى‭ ‬يېزىق‭ ‬ )",
+      "language": "UG-Uighur,_Uyghur",
+      "language_short": "ug",
+      "description": "<p>&nbsp;</p><h2>مۇقېددېس‭ ‬كالام (‭‬يەنگى‭ ‬يېزىق‭ ‬ )</h2><h2>The Holy Bible in the Uyghur language, written in Arabic script</h2><p>Copyright © 2010 Mukeddes Kalam - Uyghur Bible Translation Committee<br>Language: <a href=\"http://www.ethnologue.org/language/uig\">Uyghur tili (Uyghur)</a><br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike license 4.0.</a></p><p>You have permission to share and redistribute this Bible translation in any format and to make reasonable revisions and adaptations of this translation, provided that:</p><ul><li>You include the above copyright and source information.</li><li>If you make any changes to the text, you must indicate that you did so in a way that makes it clear that the original licensor is not necessarily endorsing your changes.</li><li>If you redistribute this text, you must distribute your contributions under the same license as the original.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p><p>Note that in addition to the rules above, revising and adapting God's Word involves a great responsibility to be true to God's Word. See Revelation 22:18-19.</p>",
+      "file": "UG-Uighur,_Uyghur_ug_ara.sqlite",
+      "size": 9629696,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/UG-Uighur,_Uyghur_ug_ara.sqlite"
+    },
+    {
+      "id": "کتابِ مقدّس",
+      "name": "کتابِ مقدّس",
+      "language": "UR-Urdu",
+      "language_short": "ur",
+      "description": "<h2>کتابِ مقدّس</h2><h2>The Holy Bible in Urdu, Urdu Geo Version, Urdu Script</h2><p>Copyright © 2019 Urdu Geo Version<br>Language: <a href=\"http://www.ethnologue.org/language/urd\">उर्दू (Urdu)</a><br>&nbsp;</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "UR-Urdu_ur_geo.sqlite",
+      "size": 8204288,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/UR-Urdu_ur_geo.sqlite"
+    },
+    {
+      "id": "Cadman",
+      "name": "Vietnamese Cadman",
+      "language": "Vietnamese",
+      "language_short": "vi",
+      "description": "<p><strong>Vietnamese (1934)</strong></p>\n\n<p>The 1934 Vietnamese Bible<br />\nPublished without a copyright statement.<br />\nThe Bible Text is PUBLIC DOMAIN</p>\n\n<p>Text supplied by Mr. Phien Nguyen of Hollywood, Florida</p>\n\n<p>1.4 - Modifications by Nguyen Ly<br />\n<br />\nThis Bible imported from The Unbound Bible <a href=\"http://unbound.biola.edu/\">http://unbound.biola.edu/</a></p>\n",
+      "file": "VI-Vietnamese_cadman.sqlite",
+      "size": 6266880,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/VI-Vietnamese_cadman.sqlite"
+    },
+    {
+      "id": "KYG",
+      "name": "Kàddug Yàlla gi",
+      "language": "WO-Wolof",
+      "language_short": "wo",
+      "description": "<h2>Kàddug Yàlla gi</h2><h2>Wolof Bible 2020 revision.</h2><h2>La bible en wolof; revision 2020</h2><p>copyright © 2010, 2020 <a href=\"http://biblewolof.com\">La Mission Baptiste du Sénégal</a><br>Language: <a href=\"http://www.ethnologue.org/language/wol\">Wolof</a><br>Dialect: Regional Wolof<br>Translation by: La MBS<br><br>For complete copyright statement, please see http://sng.al/copyright</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "WO-Wolof_wo_kyg.sqlite",
+      "size": 3842048,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/WO-Wolof_wo_kyg.sqlite"
+    },
+    {
+      "id": "Téereb Injiil",
+      "name": "Téereb Injiil",
+      "language": "WO-Wolof",
+      "language_short": "wo",
+      "description": "<h2>Téereb Injiil</h2><h2>The New Testament in Wolof, 2010 version.</h2><h2>Le Nouveau Testament en langue Wolof, revision de 2010</h2><p>copyright © 2010 <a href=\"http://biblewolof.com\">La Mission Baptiste du Sénégal</a><br>Language: <a href=\"http://www.ethnologue.org/language/wol\">Wolof</a><br>Dialect: Regional Wolof<br>Translation by: La MBS<br><br>For full copyright statement, see http://sng.al/copyright</p><p>This translation is made available to you under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-Noncommercial-No Derivatives license 4.0.</a></p><p>You may share and redistribute this Bible translation or extracts from it in any format, provided that:</p><ul><li>You include the above copyright and source information.</li><li>You do not sell this work for a profit.</li><li>You do not change any of the words or punctuation of the Scriptures.</li></ul><p>Pictures included with Scriptures and other documents on this site are licensed just for use with those Scriptures and documents. For other uses, please contact the respective copyright owners.</p>",
+      "file": "WO-Wolof_wo_wol_nt_2010.sqlite",
+      "size": 1183744,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/WO-Wolof_wo_wol_nt_2010.sqlite"
+    },
+    {
+      "id": "Chinese Union (Simp)",
+      "name": "Chinese Union (Simplified)",
+      "language": "Chinese",
+      "language_short": "zh",
+      "description": "<b>Chinese: Union (Simplified)</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "ZH-Chinese_chinese_union_simp.sqlite",
+      "size": 5332992,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_chinese_union_simp.sqlite"
+    },
+    {
+      "id": "Chinese Union Simplified  with Strong's",
+      "name": "Chinese Union Version 和合本 - Simplified with Strong's numbers 简体中文版连史特朗经文滙篇",
+      "language": "Unknown",
+      "language_short": "zh",
+      "description": "Chinese Union Version 和合本 - Simplified with Strong's numbers 简体中文版连史特朗经文滙篇<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "ZH-Chinese_chinese_union_simp_s.sqlite",
+      "size": 6582272,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_chinese_union_simp_s.sqlite"
+    },
+    {
+      "id": "Chinese Union (Trad)",
+      "name": "Chinese Union (Traditional)",
+      "language": "Chinese",
+      "language_short": "zh",
+      "description": "<b>Chinese: Union (Traditional)</b><p /><br /><br />This Bible imported from The Unbound Bible <a href='http://unbound.biola.edu/'>http://unbound.biola.edu/</a>",
+      "file": "ZH-Chinese_chinese_union_trad.sqlite",
+      "size": 5332992,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_chinese_union_trad.sqlite"
+    },
+    {
+      "id": "Chinese Union Traditional with Strong's",
+      "name": "Chinese Union Version 和合本 - Traditional with Strong's numbers 繁體中文版連史特朗經文滙篇",
+      "language": "Unknown",
+      "language_short": "zh",
+      "description": "Chinese Union Version 和合本 - Traditional with Strong's numbers 繁體中文版連史特朗經文滙篇<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "ZH-Chinese_chinese_union_trad_s.sqlite",
+      "size": 6582272,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_chinese_union_trad_s.sqlite"
+    },
+    {
+      "id": "CKJVSD/S",
+      "name": "中文英皇钦定本上帝版 Chinese KJV (Simplified) Shang-Di 简体中文",
+      "language": "Unknown",
+      "language_short": "zh",
+      "description": "中文英皇钦定本上帝版 Chinese King James Version Shang-Di 简体中文<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "ZH-Chinese_ckjv_sds.sqlite",
+      "size": 4358144,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_ckjv_sds.sqlite"
+    },
+    {
+      "id": "CKJVSD/T",
+      "name": "中文英皇欽定本上帝版 Chinese KJV (Traditional) Shang-Di 繁體中文",
+      "language": "Unknown",
+      "language_short": "zh",
+      "description": "中文英皇欽定本上帝版 Chinese King James Version Shang-Di 繁體中文<br /><br />This Bible imported from MySword <a href='https://mysword.info/download-mysword/bibles'>https://mysword.info/download-mysword/bibles</a>",
+      "file": "ZH-Chinese_ckjv_sdt.sqlite",
+      "size": 4358144,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/ZH-Chinese_ckjv_sdt.sqlite"
+    },
+    {
+      "id": "NASV",
+      "name": "አዲሱ መደበኛ ትርጉም",
+      "language": "am",
+      "language_short": "AM",
+      "description": "አዲሱ መደበኛ ትርጉም",
+      "file": "አዲሱ_መደበኛ_ትርጉም.sqlite",
+      "size": 8609792,
+      "url": "https://github.com/josephT273/open-bible-data/releases/download/latest/አዲሱ_መደበኛ_ትርጉም.sqlite"
+    }
+  ]
+}
