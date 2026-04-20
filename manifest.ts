@@ -46,7 +46,7 @@ function generateManifest() {
                     description: meta.description || "",
                     file: file,
                     size: fs.statSync(dbPath).size,
-                    url: `https://github.com/${REPO}/releases/download/${TAG}/${file}`,
+                    url: `https://github.com/${REPO}/releases/latest/download/${file}`,
                 });
             } else {
                 console.warn(`No metadata found in ${file}`);
